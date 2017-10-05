@@ -11,24 +11,17 @@ import server.logic.handler.model.Output;
 import server.logic.tables.UserTable;
 
 public class CreateUserTest {
-	String existingUser;
-	String existingUsername;
-	String nonExistentUser;
-	String wrongFormat;
+	OutputHandler outputHandler = new OutputHandler();
+	String existingUser = "Yu@carleton.ca,Yu";
+	String existingUsername ="Yu@carleton.ca";
+	String newUser = "Ebun@carleton.ca,Ebun";
+	String newUsername = "Ebun@carleton.ca";
+	String wrongFormat = "Yu,Yu@carleton.ca";
     public static final int LIBRARIAN = 2;
     public static final int CREATEUSER=6;
     
-	@Before
-	public void setUp() {
-		existingUser = "Yu@carleton.ca,Yu";
-		existingUsername ="Yu@carleton.ca";
-		nonExistentUser = "Ebun@carleton.ca,Ebun";
-		wrongFormat = "Yu,Yu@carleton.ca";
-	}
-
 	@Test
 	public void existingUserTest() {
-		OutputHandler outputHandler = new OutputHandler();
 		Output output = outputHandler.createUser(existingUser);
 		assertEquals("The User Already Exists!", output.getOutput());
 		assertEquals(LIBRARIAN, output.getState());
@@ -38,15 +31,15 @@ public class CreateUserTest {
 	
 	@Test
 	public void nonExistingUserTest() {
-		OutputHandler outputHandler = new OutputHandler();
-		Output output = outputHandler.createUser(nonExistentUser);
+		Output output = outputHandler.createUser(newUser);
 		assertEquals("Success!", output.getOutput());
 		assertEquals(LIBRARIAN, output.getState());
+		int userId = UserTable.getInstance().lookup(newUsername);
+		assertTrue(UserTable.getInstance().lookup(userId));
 	}
 	
 	@Test
 	public void incorrectFormatTest() {
-		OutputHandler outputHandler = new OutputHandler();
 		Output output = outputHandler.createUser(wrongFormat);
 		assertEquals("Your input should in this format:'username,password'", output.getOutput());
 		assertEquals(CREATEUSER, output.getState());

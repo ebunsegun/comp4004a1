@@ -1030,4 +1030,10 @@
 @2017-10-05 11:41:55 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
 @2017-10-05 11:41:55 INFO  String:47 - Operation:Create New User;User Info:[Yu@carleton.ca,Yu];State:Fail;Reason:The User already existed.
 @2017-10-05 11:41:55 INFO  String:44 - Operation:Create New User;User Info:[Ebun@carleton.ca,Ebun];State:Success
+@2017-10-05 11:45:22 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-05 11:45:22 INFO  String:47 - Operation:Create New User;User Info:[Yu@carleton.ca,Yu];State:Fail;Reason:The User already existed.
+@2017-10-05 11:45:22 INFO  String:44 - Operation:Create New User;User Info:[Ebun@carleton.ca,Ebun];State:Success
+@2017-10-05 11:46:57 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-05 11:46:57 INFO  String:47 - Operation:Create New User;User Info:[Yu@carleton.ca,Yu];State:Fail;Reason:The User already existed.
+@2017-10-05 11:46:57 INFO  String:44 - Operation:Create New User;User Info:[Ebun@carleton.ca,Ebun];State:Success
 @
