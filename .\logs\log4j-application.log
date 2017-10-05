@@ -1,0 +1,680 @@
+2017-10-03 10:13:17 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 10:13:17 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 10:13:17 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 10:19:53 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 10:19:53 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 10:19:53 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 10:21:51 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 10:21:51 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 10:21:51 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 12:07:04 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 12:07:04 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 12:07:04 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 12:27:45 INFO  LibClient:43 - Class: LibClient   : Exception thrown : Connection refused (Connection refused) 
+
+@2017-10-03 12:27:58 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 12:27:58 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 12:27:58 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 12:28:03 INFO  LibServer:54 - Client accepted : Client Address : [/127.0.0.1:52770] Client Socket: [52770 ]
+
+@2017-10-03 12:28:03 INFO  LibClient:31 - 52770 : Connected to server: /127.0.0.1
+@2017-10-03 12:28:03 INFO  LibClient:32 - 52770 : Connected to portid: 52770
+@2017-10-03 12:28:03 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 12:28:03 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__52770
+@2017-10-03 18:14:35 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 18:14:35 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 18:14:35 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 18:22:32 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 18:22:32 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 18:22:32 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 18:22:56 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 18:22:56 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 18:22:56 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 22:41:13 INFO  LibServer:22 - Binding to port 5050
+@2017-10-03 22:41:13 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 22:41:13 INFO  LibServer:36 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-03 22:41:16 INFO  LibServer:54 - Client accepted : Client Address : [/127.0.0.1:56682] Client Socket: [56682 ]
+
+@2017-10-03 22:41:16 INFO  LibServer:45 - Waiting for a client ...
+@2017-10-03 22:41:16 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__56682
+@2017-10-03 22:41:16 INFO  LibClient:31 - 56682 : Connected to server: /127.0.0.1
+@2017-10-03 22:41:16 INFO  LibClient:32 - 56682 : Connected to portid: 56682
+@2017-10-03 22:41:53 INFO  LibServer:74 - Client: 56682 Exits
+@2017-10-03 22:41:53 INFO  LibServer:78 - Client : 56682Exits
+@2017-10-03 22:41:58 INFO  LibClient:111 - Class: LibClient   : Exception thrown : Socket closed 
+
+@2017-10-04 00:09:00 INFO  LibServer:29 - Binding to port 5050
+@2017-10-04 00:09:00 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:09:00 INFO  LibServer:43 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-04 00:09:06 INFO  LibServer:61 - Client accepted : Client Address : [/127.0.0.1:57363] Client Socket: [57363 ]
+
+@2017-10-04 00:09:06 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:09:06 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57363
+@2017-10-04 00:09:06 INFO  LibClient:31 - 57363 : Connected to server: /127.0.0.1
+@2017-10-04 00:09:06 INFO  LibClient:32 - 57363 : Connected to portid: 57363
+@2017-10-04 00:09:09 INFO  LibServer:61 - Client accepted : Client Address : [/127.0.0.1:57364] Client Socket: [57364 ]
+
+@2017-10-04 00:09:09 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:09:09 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57364
+@2017-10-04 00:09:09 INFO  LibClient:31 - 57364 : Connected to server: /127.0.0.1
+@2017-10-04 00:09:09 INFO  LibClient:32 - 57364 : Connected to portid: 57364
+@2017-10-04 00:09:58 INFO  LibServer:91 - Input from 127.0.0.1:57363 hello
+@2017-10-04 00:09:58 INFO  LibServer:108 - Output to 127.0.0.1:57363 Who Are you?Librarian or User?
+
+@2017-10-04 00:10:03 INFO  LibServer:91 - Input from 127.0.0.1:57363 librarian
+@2017-10-04 00:10:03 INFO  LibServer:100 - Output to 127.0.0.1:57363 Please Input The Password:
+
+@2017-10-04 00:10:09 INFO  LibServer:91 - Input from 127.0.0.1:57363 xoxo
+@2017-10-04 00:10:09 INFO  LibServer:100 - Output to 127.0.0.1:57363 Wrong Password!Please Input The Password:
+
+@2017-10-04 00:10:13 INFO  LibServer:81 - Client: 57363 Exits
+@2017-10-04 00:10:13 INFO  LibServer:85 - Client : 57363Exits
+@2017-10-04 00:10:19 INFO  LibClient:111 - Class: LibClient   : Exception thrown : Socket closed 
+
+@2017-10-04 00:10:28 INFO  LibServer:91 - Input from 127.0.0.1:57364 hello
+@2017-10-04 00:10:28 INFO  LibServer:108 - Output to 127.0.0.1:57364 Who Are you?Librarian or User?
+
+@2017-10-04 00:10:30 INFO  LibServer:91 - Input from 127.0.0.1:57364 user
+@2017-10-04 00:10:30 INFO  LibServer:100 - Output to 127.0.0.1:57364 Please Input Username and Password:'username,password'
+
+@2017-10-04 00:11:09 INFO  LibServer:91 - Input from 127.0.0.1:57364 Yu, Yu@carleton.ca
+@2017-10-04 00:11:09 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:11:22 INFO  LibServer:91 - Input from 127.0.0.1:57364 Yu,Yu@carleton.ca
+@2017-10-04 00:11:22 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:11:46 INFO  LibServer:91 - Input from 127.0.0.1:57364 'Yu,Yu@carleton.ca'
+@2017-10-04 00:11:46 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:20 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:20 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:21 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:21 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:21 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:21 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:21 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:21 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:21 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:21 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:21 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:21 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:21 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:21 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:21 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:21 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:13:21 INFO  LibServer:91 - Input from 127.0.0.1:57364 null
+@2017-10-04 00:13:21 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-04 00:13:21 INFO  LibServer:100 - Output to 127.0.0.1:57364 Your input should in this format:'username,password'
+
+@2017-10-04 00:24:32 INFO  LibServer:29 - Binding to port 5050
+@2017-10-04 00:24:32 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:24:32 INFO  LibServer:43 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-04 00:24:37 INFO  LibServer:61 - Client accepted : Client Address : [/127.0.0.1:57382] Client Socket: [57382 ]
+
+@2017-10-04 00:24:37 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:24:37 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57382
+@2017-10-04 00:24:37 INFO  LibClient:31 - 57382 : Connected to server: /127.0.0.1
+@2017-10-04 00:24:37 INFO  LibClient:32 - 57382 : Connected to portid: 57382
+@2017-10-04 00:25:20 INFO  LibServer:91 - Input from 127.0.0.1:57382 hello
+@2017-10-04 00:25:20 INFO  LibServer:108 - Output to 127.0.0.1:57382 Who Are you?Librarian or User?
+
+@2017-10-04 00:25:22 INFO  LibServer:91 - Input from 127.0.0.1:57382 user
+@2017-10-04 00:25:22 INFO  LibServer:100 - Output to 127.0.0.1:57382 Please Input Username and Password:'username,password'
+
+@2017-10-04 00:25:36 INFO  LibServer:91 - Input from 127.0.0.1:57382 Yu,Yu@carleton.ca
+@2017-10-04 00:25:36 INFO  LibServer:100 - Output to 127.0.0.1:57382 Your input should in this format:'username,password'
+
+@2017-10-04 00:26:43 INFO  LibServer:91 - Input from 127.0.0.1:57382 null
+@2017-10-04 00:26:43 INFO  LibServer:100 - Output to 127.0.0.1:57382 Your input should in this format:'username,password'
+
+@2017-10-04 00:26:43 INFO  LibServer:91 - Input from 127.0.0.1:57382 null
+@2017-10-04 00:26:43 INFO  LibServer:100 - Output to 127.0.0.1:57382 Your input should in this format:'username,password'
+
+@2017-10-04 00:26:43 INFO  LibServer:91 - Input from 127.0.0.1:57382 null
+@2017-10-04 00:26:43 INFO  LibServer:100 - Output to 127.0.0.1:57382 Your input should in this format:'username,password'
+
+@2017-10-04 00:26:43 INFO  LibServer:91 - Input from 127.0.0.1:57382 null
+@2017-10-04 00:26:43 INFO  LibServer:100 - Output to 127.0.0.1:57382 Your input should in this format:'username,password'
+
+@2017-10-04 00:26:43 INFO  LibServer:91 - Input from 127.0.0.1:57382 null
+@2017-10-04 00:26:43 INFO  LibServer:100 - Output to 127.0.0.1:57382 Your input should in this format:'username,password'
+
+@2017-10-04 00:26:43 INFO  LibServer:91 - Input from 127.0.0.1:57382 null
+@2017-10-04 00:26:43 INFO  LibServer:100 - Output to 127.0.0.1:57382 Your input should in this format:'username,password'
+
+@2017-10-04 00:26:43 INFO  LibServer:91 - Input from 127.0.0.1:57382 null
+@2017-10-04 00:26:43 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-04 00:26:43 INFO  LibServer:100 - Output to 127.0.0.1:57382 Your input should in this format:'username,password'
+
+@2017-10-04 00:26:50 INFO  LibServer:29 - Binding to port 5050
+@2017-10-04 00:26:50 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:26:50 INFO  LibServer:43 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-04 00:26:54 INFO  LibServer:61 - Client accepted : Client Address : [/127.0.0.1:57386] Client Socket: [57386 ]
+
+@2017-10-04 00:26:54 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:26:54 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57386
+@2017-10-04 00:26:54 INFO  LibClient:31 - 57386 : Connected to server: /127.0.0.1
+@2017-10-04 00:26:54 INFO  LibClient:32 - 57386 : Connected to portid: 57386
+@2017-10-04 00:26:57 INFO  LibServer:91 - Input from 127.0.0.1:57386 hello
+@2017-10-04 00:26:57 INFO  LibServer:108 - Output to 127.0.0.1:57386 Who Are you?Librarian or User?
+
+@2017-10-04 00:26:59 INFO  LibServer:91 - Input from 127.0.0.1:57386 user
+@2017-10-04 00:26:59 INFO  LibServer:100 - Output to 127.0.0.1:57386 Please Input Username and Password:'username,password'
+
+@2017-10-04 00:27:09 INFO  LibServer:91 - Input from 127.0.0.1:57386 Yu,Yu@carleton.ca
+@2017-10-04 00:27:09 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:04 INFO  LibServer:91 - Input from 127.0.0.1:57386 null
+@2017-10-04 00:28:04 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-04 00:28:04 INFO  LibServer:100 - Output to 127.0.0.1:57386 Your input should in this format:'username,password'
+
+@2017-10-04 00:28:09 INFO  LibServer:61 - Client accepted : Client Address : [/127.0.0.1:57387] Client Socket: [57387 ]
+
+@2017-10-04 00:28:09 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:28:09 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57387
+@2017-10-04 00:28:09 INFO  LibClient:31 - 57387 : Connected to server: /127.0.0.1
+@2017-10-04 00:28:09 INFO  LibClient:32 - 57387 : Connected to portid: 57387
+@2017-10-04 00:28:13 INFO  LibServer:91 - Input from 127.0.0.1:57387 hello
+@2017-10-04 00:28:13 INFO  LibServer:108 - Output to 127.0.0.1:57387 Who Are you?Librarian or User?
+
+@2017-10-04 00:28:15 INFO  LibServer:91 - Input from 127.0.0.1:57387 user
+@2017-10-04 00:28:15 INFO  LibServer:100 - Output to 127.0.0.1:57387 Please Input Username and Password:'username,password'
+
+@2017-10-04 00:28:22 INFO  LibServer:91 - Input from 127.0.0.1:57387 Yu,Yu@carleton.ca
+@2017-10-04 00:28:22 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:53 INFO  LibServer:91 - Input from 127.0.0.1:57387 null
+@2017-10-04 00:29:53 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-04 00:29:53 INFO  LibServer:100 - Output to 127.0.0.1:57387 Your input should in this format:'username,password'
+
+@2017-10-04 00:29:57 INFO  LibServer:61 - Client accepted : Client Address : [/127.0.0.1:57388] Client Socket: [57388 ]
+
+@2017-10-04 00:29:57 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:29:57 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57388
+@2017-10-04 00:29:57 INFO  LibClient:31 - 57388 : Connected to server: /127.0.0.1
+@2017-10-04 00:29:57 INFO  LibClient:32 - 57388 : Connected to portid: 57388
+@2017-10-04 00:30:01 INFO  LibServer:91 - Input from 127.0.0.1:57388 hello
+@2017-10-04 00:30:01 INFO  LibServer:108 - Output to 127.0.0.1:57388 Who Are you?Librarian or User?
+
+@2017-10-04 00:30:03 INFO  LibServer:91 - Input from 127.0.0.1:57388 user
+@2017-10-04 00:30:03 INFO  LibServer:100 - Output to 127.0.0.1:57388 Please Input Username and Password:'username,password'
+
+@2017-10-04 00:30:16 INFO  LibServer:91 - Input from 127.0.0.1:57388 Yu,Yu@carleton.ca
+@2017-10-04 00:30:16 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:29 INFO  LibServer:91 - Input from 127.0.0.1:57388 null
+@2017-10-04 00:30:29 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-04 00:30:29 INFO  LibServer:100 - Output to 127.0.0.1:57388 Your input should in this format:'username,password'
+
+@2017-10-04 00:30:49 INFO  LibServer:29 - Binding to port 5050
+@2017-10-04 00:30:49 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:30:49 INFO  LibServer:43 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-04 00:30:57 INFO  LibServer:61 - Client accepted : Client Address : [/127.0.0.1:57393] Client Socket: [57393 ]
+
+@2017-10-04 00:30:57 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:30:57 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57393
+@2017-10-04 00:30:57 INFO  LibClient:31 - 57393 : Connected to server: /127.0.0.1
+@2017-10-04 00:30:57 INFO  LibClient:32 - 57393 : Connected to portid: 57393
+@2017-10-04 00:31:01 INFO  LibServer:91 - Input from 127.0.0.1:57393 hello
+@2017-10-04 00:31:01 INFO  LibServer:108 - Output to 127.0.0.1:57393 Who Are you?Librarian or User?
+
+@2017-10-04 00:31:03 INFO  LibServer:91 - Input from 127.0.0.1:57393 user
+@2017-10-04 00:31:03 INFO  LibServer:100 - Output to 127.0.0.1:57393 Please Input Username and Password:'username,password'
+
+@2017-10-04 00:31:07 INFO  LibServer:91 - Input from 127.0.0.1:57393 a,a
+@2017-10-04 00:31:07 INFO  LibServer:100 - Output to 127.0.0.1:57393 Your input should in this format:'username,password'
+
+@2017-10-04 00:31:24 INFO  LibServer:91 - Input from 127.0.0.1:57393 Yu,Yu@carleton.ca
+@2017-10-04 00:31:24 INFO  LibServer:100 - Output to 127.0.0.1:57393 Your input should in this format:'username,password'
+
+@2017-10-04 00:32:31 INFO  LibServer:91 - Input from 127.0.0.1:57393 'Yu,Yu@carleton.ca'
+@2017-10-04 00:32:31 INFO  LibServer:100 - Output to 127.0.0.1:57393 Your input should in this format:'username,password'
+
+@2017-10-04 00:33:50 INFO  LibClient:43 - Class: LibClient   : Exception thrown : Connection refused (Connection refused) 
+
+@2017-10-04 00:33:56 INFO  LibServer:29 - Binding to port 5050
+@2017-10-04 00:33:56 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:33:56 INFO  LibServer:43 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-04 00:33:58 INFO  LibServer:61 - Client accepted : Client Address : [/127.0.0.1:57404] Client Socket: [57404 ]
+
+@2017-10-04 00:33:58 INFO  LibServer:52 - Waiting for a client ...
+@2017-10-04 00:33:58 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57404
+@2017-10-04 00:33:58 INFO  LibClient:31 - 57404 : Connected to server: /127.0.0.1
+@2017-10-04 00:33:58 INFO  LibClient:32 - 57404 : Connected to portid: 57404
+@2017-10-04 00:34:05 INFO  LibServer:91 - Input from 127.0.0.1:57404 hello
+@2017-10-04 00:34:05 INFO  LibServer:108 - Output to 127.0.0.1:57404 Who Are you?Librarian or User?
+
+@2017-10-04 00:34:07 INFO  LibServer:91 - Input from 127.0.0.1:57404 user
+@2017-10-04 00:34:07 INFO  LibServer:100 - Output to 127.0.0.1:57404 Please Input Username and Password:'username,password'
+
+@2017-10-04 00:34:21 INFO  LibServer:91 - Input from 127.0.0.1:57404 Yu,Yu@carleton.ca
+@2017-10-04 00:34:21 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 00:50:55 INFO  LibServer:91 - Input from 127.0.0.1:57404 null
+@2017-10-04 00:50:55 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-04 00:50:55 INFO  LibServer:100 - Output to 127.0.0.1:57404 Your input should in this format:'username,password'
+
+@2017-10-04 01:39:43 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 01:41:35 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 01:42:25 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 01:42:54 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 01:47:48 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 01:55:41 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 01:55:48 INFO  LibServer:34 - Binding to port 5050
+@2017-10-04 01:55:48 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-04 01:55:48 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-04 01:55:48 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 01:55:48 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-04 01:55:48 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-04 01:55:48 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-04 01:55:48,0]]
+@2017-10-04 01:55:48 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-04 01:55:48 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-04 01:55:57 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:57902] Client Socket: [57902 ]
+
+@2017-10-04 01:55:57 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-04 01:55:57 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57902
+@2017-10-04 01:55:57 INFO  LibClient:31 - 57902 : Connected to server: /127.0.0.1
+@2017-10-04 01:55:57 INFO  LibClient:32 - 57902 : Connected to portid: 57902
+@2017-10-04 02:03:15 INFO  LibServer:34 - Binding to port 5050
+@2017-10-04 02:03:15 FATAL LibServer:40 - java.net.BindException: Address already in use (Bind failed)
+@2017-10-04 02:03:25 INFO  LibServer:102 - Input from 127.0.0.1:57902 null
+@2017-10-04 02:03:25 INFO  LibServer:119 - Output to 127.0.0.1:57902 Who Are you?Librarian or User?
+
+@2017-10-04 02:03:25 INFO  LibServer:102 - Input from 127.0.0.1:57902 null
+@2017-10-04 02:03:25 INFO  LibServer:111 - Output to 127.0.0.1:57902 Who Are you?Librarian or User?
+
+@2017-10-04 02:03:25 INFO  LibServer:102 - Input from 127.0.0.1:57902 null
+@2017-10-04 02:03:25 INFO  LibServer:111 - Output to 127.0.0.1:57902 Who Are you?Librarian or User?
+
+@2017-10-04 02:03:25 INFO  LibServer:102 - Input from 127.0.0.1:57902 null
+@2017-10-04 02:03:25 INFO  LibServer:111 - Output to 127.0.0.1:57902 Who Are you?Librarian or User?
+
+@2017-10-04 02:03:25 INFO  LibServer:102 - Input from 127.0.0.1:57902 null
+@2017-10-04 02:03:25 INFO  LibServer:111 - Output to 127.0.0.1:57902 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:09 INFO  LibServer:34 - Binding to port 5050
+@2017-10-04 02:04:09 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-04 02:04:09 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-04 02:04:09 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 02:04:09 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-04 02:04:09 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-04 02:04:09 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-04 02:04:09,0]]
+@2017-10-04 02:04:09 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-04 02:04:09 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-04 02:04:22 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:57927] Client Socket: [57927 ]
+
+@2017-10-04 02:04:22 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-04 02:04:22 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57927
+@2017-10-04 02:04:22 INFO  LibClient:31 - 57927 : Connected to server: /127.0.0.1
+@2017-10-04 02:04:22 INFO  LibClient:32 - 57927 : Connected to portid: 57927
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:119 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:04:27 INFO  LibServer:102 - Input from 127.0.0.1:57927 null
+@2017-10-04 02:04:27 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-04 02:04:27 INFO  LibServer:111 - Output to 127.0.0.1:57927 Who Are you?Librarian or User?
+
+@2017-10-04 02:06:13 INFO  LibServer:34 - Binding to port 5050
+@2017-10-04 02:06:13 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-04 02:06:13 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-04 02:06:13 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-04 02:06:13 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-04 02:06:13 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-04 02:06:13 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-04 02:06:13,0]]
+@2017-10-04 02:06:13 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-04 02:06:13 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-05 09:03:43 INFO  LibServer:34 - Binding to port 5050
+@2017-10-05 09:03:43 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-05 09:03:43 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-05 09:03:43 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-05 09:03:43 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-05 09:03:43 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-05 09:03:43 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-05 09:03:43,0]]
+@2017-10-05 09:03:43 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-05 09:03:43 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-05 09:03:44 INFO  LibServer:34 - Binding to port 5050
+@2017-10-05 09:03:44 FATAL LibServer:40 - java.net.BindException: Address already in use (Bind failed)
+@2017-10-05 09:03:56 INFO  LibServer:34 - Binding to port 5050
+@2017-10-05 09:03:56 FATAL LibServer:40 - java.net.BindException: Address already in use (Bind failed)
+@2017-10-05 09:04:02 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62546] Client Socket: [62546 ]
+
+@2017-10-05 09:04:02 INFO  LibClient:31 - 62546 : Connected to server: /127.0.0.1
+@2017-10-05 09:04:02 INFO  LibClient:32 - 62546 : Connected to portid: 62546
+@2017-10-05 09:04:02 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-05 09:04:02 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62546
+@2017-10-05 09:04:10 INFO  LibServer:102 - Input from 127.0.0.1:62546 hello
+@2017-10-05 09:04:10 INFO  LibServer:119 - Output to 127.0.0.1:62546 Who Are you?Librarian or User?
+
+@2017-10-05 09:04:16 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:62547] Client Socket: [62547 ]
+
+@2017-10-05 09:04:16 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-05 09:04:16 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__62547
+@2017-10-05 09:04:16 INFO  LibClient:31 - 62547 : Connected to server: /127.0.0.1
+@2017-10-05 09:04:16 INFO  LibClient:32 - 62547 : Connected to portid: 62547
+@2017-10-05 09:04:20 INFO  LibServer:102 - Input from 127.0.0.1:62547 hello
+@2017-10-05 09:04:20 INFO  LibServer:119 - Output to 127.0.0.1:62547 Who Are you?Librarian or User?
+
+@2017-10-05 09:04:26 INFO  LibServer:102 - Input from 127.0.0.1:62547 librarian
+@2017-10-05 09:04:26 INFO  LibServer:111 - Output to 127.0.0.1:62547 Please Input The Password:
+
+@2017-10-05 09:04:32 INFO  LibServer:102 - Input from 127.0.0.1:62546 user
+@2017-10-05 09:04:32 INFO  LibServer:111 - Output to 127.0.0.1:62546 Please Input Username and Password:'username,password'
+
+@2017-10-05 09:04:44 INFO  LibServer:102 - Input from 127.0.0.1:62546 Yu@carleton.ca,Yu
+@2017-10-05 09:04:44 INFO  LibServer:111 - Output to 127.0.0.1:62546 What can I do for you?Menu:Borrow,Renew,Return,Pay Fine.
+
+@2017-10-05 09:05:27 INFO  LibServer:102 - Input from 127.0.0.1:62547 admin
+@2017-10-05 09:05:27 INFO  LibServer:111 - Output to 127.0.0.1:62547 What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.
+
+@2017-10-05 09:05:36 INFO  LibServer:92 - Client: 62547 Exits
+@2017-10-05 09:05:36 INFO  LibServer:96 - Client : 62547Exits
+@2017-10-05 09:05:58 INFO  LibClient:111 - Class: LibClient   : Exception thrown : Socket closed 
+
+@2017-10-05 09:06:08 INFO  LibServer:92 - Client: 62546 Exits
+@2017-10-05 09:06:08 INFO  LibServer:96 - Client : 62546Exits
+@2017-10-05 09:06:13 INFO  LibClient:111 - Class: LibClient   : Exception thrown : Socket closed 
+
+@
