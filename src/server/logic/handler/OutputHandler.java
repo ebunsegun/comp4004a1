@@ -9,18 +9,9 @@ public class OutputHandler {
 	public static final int FINISHWAITING=1;
     public static final int LIBRARIAN = 2;
     public static final int USER = 3;
-    public static final int CREATEUSER=4;
-    public static final int CREATETITLE=5;
-    public static final int CREATEITEM=6;
-    public static final int DELETEUSER=7;
-    public static final int DELETETITLE=8;
-    public static final int DELETEITEM=9;
-    public static final int BORROW=10;
-    public static final int RENEW=11;
-    public static final int RETURN=12;
-    public static final int PAYFINE=13;
-    public static final int LIBRARIANLOGIN=14;
-    public static final int USERLOGIN=15;
+    public static final int LIBRARIANLOGIN=4;
+    public static final int USERLOGIN=5;
+    public static final int CREATEUSER=6;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);

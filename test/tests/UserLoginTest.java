@@ -1,4 +1,5 @@
-package UserLogin;
+package tests;
+
 
 import static org.junit.Assert.assertEquals;
 
@@ -14,7 +15,7 @@ public class UserLoginTest {
 	String incorrectPassword;
 	String wrongFormat;
     public static final int USER = 3;
-    public static final int USERLOGIN=15;
+    public static final int USERLOGIN=5;
     
 	@Before
 	public void setUp() {

@@ -8,21 +8,11 @@ public class InputHandler {
 	public static final int FINISHWAITING=1;
     public static final int LIBRARIAN = 2;
     public static final int USER = 3;
-    public static final int CREATEUSER=4;
-    public static final int CREATETITLE=5;
-    public static final int CREATEITEM=6;
-    public static final int DELETEUSER=7;
-    public static final int DELETETITLE=8;
-    public static final int DELETEITEM=9;
-    public static final int BORROW=10;
-    public static final int RENEW=11;
-    public static final int RETURN=12;
-    public static final int PAYFINE=13;
-    public static final int LIBRARIANLOGIN=14;
-    public static final int USERLOGIN=15;
+    public static final int LIBRARIANLOGIN=4;
+    public static final int USERLOGIN=5;
+    public static final int CREATEUSER=6;
     
     OutputHandler outputHandler=new OutputHandler();
-
 
 	public ServerOutput processInput(String input, int state) {
 		 String output = "";
@@ -68,25 +58,25 @@ public class InputHandler {
 	            	state=CREATEUSER;
 	            	oo.setOutput(output);
 		            oo.setState(state);
-	            }
-	            
-	            else if(input.equalsIgnoreCase("log out")){
+	        	} else if(input.equalsIgnoreCase("log out")){
 	            	output = "Successfully Log Out!";
 	                state = WAITING;
 	                oo.setOutput(output);
 		            oo.setState(state);
-	            }else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	            } else if(input.equalsIgnoreCase("main menu")){
+	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
-	        	}else{
-	            	output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        	} else{
+	            	output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
 	            }
-	        }else if (state==USER){
+	        }else if (state==USER){ 
 	        	
 	        }else if(state==CREATEUSER){
 	        	if(input.equalsIgnoreCase("log out")){
@@ -95,7 +85,8 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -109,6 +100,5 @@ public class InputHandler {
 	        }
 	        return oo;
 	}
-
 
 }
