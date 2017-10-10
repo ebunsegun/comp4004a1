@@ -12,6 +12,7 @@ public class InputHandler {
     public static final int USERLOGIN=5;
     public static final int CREATEUSER=6;
     public static final int CREATETITLE=7;
+    public static final int CREATEITEM=8;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -64,6 +65,11 @@ public class InputHandler {
 		            state=CREATETITLE;
 		            oo.setOutput(output);
 		            oo.setState(state);
+	            } else if (input.equalsIgnoreCase("create item")) {
+		            output = "Please Input Item Info:'ISBN'";
+		            state=CREATEITEM;
+		            oo.setOutput(output);
+		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("log out")){
 	            	output = "Successfully Log Out!";
 	                state = WAITING;
@@ -110,12 +116,32 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else{
 	        		o=outputHandler.createTitle(input);
+	        		output=o.getOutput();
+	        		state=o.getState();
+	        		oo.setOutput(output);
+		            oo.setState(state);
+	        	}
+	        } else if(state==CREATEITEM){
+	        	if(input.equalsIgnoreCase("log out")){
+	            	output = "Successfully Log Out!";
+	                state = WAITING;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else if(input.equalsIgnoreCase("main menu")){
+	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	                state = LIBRARIAN;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else{
+	        		o=outputHandler.createItem(input);
 	        		output=o.getOutput();
 	        		state=o.getState();
 	        		oo.setOutput(output);

@@ -31,17 +31,17 @@ public class ItemTable {
 		boolean result=true;
 		result=TitleTable.getInstance().lookup(string);
 		if(result){
-		int flag=0;
-		for(int i=0;i<itemList.size();i++){
-			if(itemList.get(i).getISBN().equalsIgnoreCase(string)){
-				flag=flag+1;
-			}else{
-				flag=flag+0;
+			int flag=0;
+			for(int i=0;i<itemList.size();i++){
+				if(itemList.get(i).getISBN().equalsIgnoreCase(string)){
+					flag=flag+1;
+				}else{
+					flag=flag+0;
+				}
 			}
-		}
-		Item newitem=new Item(itemList.size(),string,String.valueOf(flag+1));
-		itemList.add(newitem);
-		logger.info(String.format("Operation:Create New Item;Item Info:[%s,%s];State:Success", string,String.valueOf(flag+1)));
+			Item newitem=new Item(itemList.size(),string,String.valueOf(flag+1));
+			itemList.add(newitem);
+			logger.info(String.format("Operation:Create New Item;Item Info:[%s,%s];State:Success", string,String.valueOf(flag+1)));
 		}else{
 			result=false;
 			logger.info(String.format("Operation:Create New Item;Item Info:[%s,%s];State:Fail;Reason:No such ISBN existed.", string,"N/A"));
