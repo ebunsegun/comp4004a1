@@ -39,7 +39,7 @@ public class CreateTitleTest {
 	@Test
 	public void incorrectTitleFormatTest() {
 		Output output = outputHandler.createTitle(wrongFormat);
-		assertEquals("Your input should in this format:'ISBN,title',ISBN should be a 13-digit number", output.getOutput());
+		assertEquals("Your input should be in this format:'ISBN,title',ISBN should be a 13-digit number", output.getOutput());
 		assertEquals(CREATETITLE, output.getState());
 		assertTrue(TitleTable.getInstance().lookup(newISBN));
 	}

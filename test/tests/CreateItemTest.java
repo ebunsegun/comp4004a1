@@ -29,14 +29,14 @@ public class CreateItemTest {
 	@Test
 	public void newTitleTest() {
 		Output output = outputHandler.createItem(newTitleISBN);
-		assertEquals("The Title Does Not Exists!", output.getOutput());
+		assertEquals("The Title Does Not Exist!", output.getOutput());
 		assertEquals(LIBRARIAN, output.getState());
 	}
 	
 	@Test
 	public void incorrectTitleFormatTest() {
 		Output output = outputHandler.createItem(wrongFormatISBN);
-		assertEquals("Your input should in this format:'ISBN',ISBN should be a 13-digit number", output.getOutput());
+		assertEquals("Your input should be in this format:'ISBN',ISBN should be a 13-digit number", output.getOutput());
 		assertEquals(CREATEITEM, output.getState());
 	}
 

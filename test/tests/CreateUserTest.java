@@ -41,7 +41,7 @@ public class CreateUserTest {
 	@Test
 	public void incorrectFormatTest() {
 		Output output = outputHandler.createUser(wrongFormat);
-		assertEquals("Your input should in this format:'username,password'", output.getOutput());
+		assertEquals("Your input should be in this format:'username,password'", output.getOutput());
 		assertEquals(CREATEUSER, output.getState());
 	}
 

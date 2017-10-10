@@ -38,7 +38,7 @@ public class RemoveUserTest {
 	@Test
 	public void incorrectFormatTest() {
 		Output output = outputHandler.removeUser(wrongFormat);
-		assertEquals("Your input should in this format:'useremail'", output.getOutput());
+		assertEquals("Your input should be in this format:'useremail'", output.getOutput());
 		assertEquals(DELETEUSER, output.getState());
 	}
 

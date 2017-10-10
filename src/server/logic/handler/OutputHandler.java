@@ -25,7 +25,7 @@ public class OutputHandler {
         boolean email=strArray[0].contains("@");
         Object result="";
         if(strArray.length!=2 || email!=true){
-        	output.setOutput("Your input should in this format:'username,password'");
+        	output.setOutput("Your input should be in this format:'username,password'");
         	output.setState(CREATEUSER);
         }else{
         	result=UserTable.getInstance().createuser(strArray[0], strArray[1]);
@@ -41,7 +41,7 @@ public class OutputHandler {
 
 	public Output librarianLogin(String input) {
 		Output output=new Output("",0);
-		if(input.equalsIgnoreCase(Config.CLERK_PASSWORD)){
+		if(input.equalsIgnoreCase(Config.LIBRARIAN_PASSWORD)){
 			output.setOutput("Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
         			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.");
         	output.setState(LIBRARIAN);
@@ -59,7 +59,7 @@ public class OutputHandler {
         boolean email=strArray[0].contains("@");
         int result=0;
         if(strArray.length!=2 || email!=true){
-        	output.setOutput("Your input should in this format:'username,password'");
+        	output.setOutput("Your input should be in this format:'username,password'");
         	output.setState(USERLOGIN);
         }else{
         	result=UserTable.getInstance().checkUser(strArray[0], strArray[1]);
@@ -84,7 +84,7 @@ public class OutputHandler {
         boolean number=isInteger(strArray[0]);
         Object result="";
         if(strArray.length!=2 || number!=true){
-        	output.setOutput("Your input should in this format:'ISBN,title',ISBN should be a 13-digit number");
+        	output.setOutput("Your input should be in this format:'ISBN,title',ISBN should be a 13-digit number");
         	output.setState(CREATETITLE);
         }else{
         	result=TitleTable.getInstance().createtitle(strArray[0], strArray[1]);
@@ -105,14 +105,14 @@ public class OutputHandler {
         boolean number=isInteger(strArray[0]);
         Object result="";
         if(strArray.length!=1 || number!=true){
-        	output.setOutput("Your input should in this format:'ISBN',ISBN should be a 13-digit number");
+        	output.setOutput("Your input should be in this format:'ISBN',ISBN should be a 13-digit number");
         	output.setState(CREATEITEM);
         }else{
         	result=ItemTable.getInstance().createitem(strArray[0]);
         	if(result.equals(true)){
         		output.setOutput("Success!");
         	}else{
-        		output.setOutput("The Title Does Not Exists!");
+        		output.setOutput("The Title Does Not Exist!");
         	}
         	output.setState(LIBRARIAN);
         }
@@ -127,7 +127,7 @@ public class OutputHandler {
         boolean email=strArray[0].contains("@");
         Object result="";
         if(strArray.length!=1 || email!=true){
-        	output.setOutput("Your input should in this format:'useremail'");
+        	output.setOutput("Your input should be in this format:'useremail'");
         	output.setState(DELETEUSER);
         }else if(userid==-1){
         	output.setOutput("The User Does Not Exist!");

@@ -45,7 +45,7 @@ public class UserLoginTest {
 	public void incorrectFormatTest() {
 		OutputHandler outputHandler = new OutputHandler();
 		Output output = outputHandler.userLogin(wrongFormat);
-		assertEquals("Your input should in this format:'username,password'", output.getOutput());
+		assertEquals("Your input should be in this format:'username,password'", output.getOutput());
 		assertEquals(USERLOGIN, output.getState());
 	}
 	
