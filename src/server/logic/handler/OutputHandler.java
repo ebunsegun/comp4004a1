@@ -16,6 +16,7 @@ public class OutputHandler {
     public static final int CREATEUSER=6;
     public static final int CREATETITLE=7;
     public static final int CREATEITEM=8;
+    public static final int DELETEUSER=9;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);
@@ -112,6 +113,31 @@ public class OutputHandler {
         		output.setOutput("Success!");
         	}else{
         		output.setOutput("The Title Does Not Exists!");
+        	}
+        	output.setState(LIBRARIAN);
+        }
+		return output;
+	}
+	
+	public Output removeUser(String input) {
+		Output output=new Output("",0);
+		String[] strArray = null;   
+        strArray = input.split(",");
+        int userid=UserTable.getInstance().lookup(strArray[0]);
+        boolean email=strArray[0].contains("@");
+        Object result="";
+        if(strArray.length!=1 || email!=true){
+        	output.setOutput("Your input should in this format:'useremail'");
+        	output.setState(DELETEUSER);
+        }else if(userid==-1){
+        	output.setOutput("The User Does Not Exist!");
+        	output.setState(DELETEUSER);
+        }else{
+        	result=UserTable.getInstance().delete(userid);
+        	if(result.equals("success")){
+        		output.setOutput("Success!");
+        	}else{
+        		output.setOutput(result+"!");
         	}
         	output.setState(LIBRARIAN);
         }

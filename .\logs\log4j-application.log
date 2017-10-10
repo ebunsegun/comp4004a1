@@ -1321,4 +1321,77 @@
 
 @2017-10-09 19:38:18 INFO  LibServer:111 - Output to 127.0.0.1:54003 Who Are you?Librarian or User?
 
+@2017-10-09 21:49:14 INFO  LibServer:34 - Binding to port 5050
+@2017-10-09 21:49:14 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-09 21:49:14 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-09 21:49:14 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-09 21:49:14 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-09 21:49:14 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-09 21:49:14 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-09 09:49:14,0]]
+@2017-10-09 21:49:14 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-09 21:49:14 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-09 21:49:18 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:54379] Client Socket: [54379 ]
+
+@2017-10-09 21:49:18 INFO  LibClient:31 - 54379 : Connected to server: /127.0.0.1
+@2017-10-09 21:49:18 INFO  LibClient:32 - 54379 : Connected to portid: 54379
+@2017-10-09 21:49:18 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-09 21:49:18 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__54379
+@2017-10-09 21:49:20 INFO  LibServer:102 - Input from 127.0.0.1:54379 hello
+@2017-10-09 21:49:20 INFO  LibServer:119 - Output to 127.0.0.1:54379 Who Are you?Librarian or User?
+
+@2017-10-09 21:49:23 INFO  LibServer:102 - Input from 127.0.0.1:54379 librarian
+@2017-10-09 21:49:23 INFO  LibServer:111 - Output to 127.0.0.1:54379 Please Input The Password:
+
+@2017-10-09 21:49:30 INFO  LibServer:102 - Input from 127.0.0.1:54379 admisd
+@2017-10-09 21:49:30 INFO  LibServer:111 - Output to 127.0.0.1:54379 Wrong Password!Please Input The Password:
+
+@2017-10-09 21:49:32 INFO  LibServer:102 - Input from 127.0.0.1:54379 admin
+@2017-10-09 21:49:32 INFO  LibServer:111 - Output to 127.0.0.1:54379 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine.
+
+@2017-10-09 21:49:36 INFO  LibServer:102 - Input from 127.0.0.1:54379 delete user
+@2017-10-09 21:49:36 INFO  LibServer:111 - Output to 127.0.0.1:54379 Please Input User Info:'useremail'
+
+@2017-10-09 21:49:43 INFO  LibServer:102 - Input from 127.0.0.1:54379 yu@carleton.
+@2017-10-09 21:49:43 INFO  LibServer:111 - Output to 127.0.0.1:54379 The User Does Not Exist!
+
+@2017-10-09 21:49:45 INFO  LibServer:102 - Input from 127.0.0.1:54379 
+@2017-10-09 21:49:45 INFO  LibServer:111 - Output to 127.0.0.1:54379 Your input should in this format:'useremail'
+
+@2017-10-09 21:49:52 INFO  LibServer:102 - Input from 127.0.0.1:54379 
+@2017-10-09 21:49:52 INFO  LibServer:111 - Output to 127.0.0.1:54379 Your input should in this format:'useremail'
+
+@2017-10-09 21:50:04 INFO  LibServer:102 - Input from 127.0.0.1:54379 yu@carleton.ca
+@2017-10-09 21:50:04 INFO  String:100 - Operation:Delete User;User Info:[Yu@carleton.ca,Yu];State:Success
+@2017-10-09 21:50:04 INFO  LibServer:111 - Output to 127.0.0.1:54379 Success!
+
+@2017-10-09 22:02:10 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-09 22:02:10 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-09 10:02:10,0]]
+@2017-10-09 22:02:10 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-09 22:02:10 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-09 22:02:10 INFO  String:100 - Operation:Delete User;User Info:[Yu@carleton.ca,Yu];State:Success
+@2017-10-09 22:07:12 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-09 22:07:12 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-09 10:07:12,0]]
+@2017-10-09 22:07:12 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-09 22:07:12 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-09 22:07:12 INFO  String:100 - Operation:Delete User;User Info:[Yu@carleton.ca,Yu];State:Success
+@2017-10-09 22:07:19 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-09 22:07:19 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-09 10:07:19,0]]
+@2017-10-09 22:07:19 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-09 22:07:19 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-09 22:07:19 INFO  String:100 - Operation:Delete User;User Info:[Yu@carleton.ca,Yu];State:Success
+@2017-10-09 22:08:33 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-09 22:08:33 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-09 10:08:33,0]]
+@2017-10-09 22:08:33 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-09 22:08:33 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-09 22:08:33 INFO  String:100 - Operation:Delete User;User Info:[Yu@carleton.ca,Yu];State:Success
+@2017-10-09 22:11:47 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-09 22:11:47 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-09 10:11:47,0]]
+@2017-10-09 22:11:47 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-09 22:11:47 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-09 22:11:47 INFO  String:100 - Operation:Delete User;User Info:[Yu@carleton.ca,Yu];State:Success
+@2017-10-09 22:12:12 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-09 22:12:12 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-09 10:12:12,0]]
+@2017-10-09 22:12:12 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-09 22:12:12 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-09 22:12:12 INFO  String:100 - Operation:Delete User;User Info:[Yu@carleton.ca,Yu];State:Success
 @
