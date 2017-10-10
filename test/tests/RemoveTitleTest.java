@@ -8,9 +8,7 @@ import org.junit.Test;
 
 import server.logic.handler.OutputHandler;
 import server.logic.handler.model.Output;
-import server.logic.tables.FeeTable;
 import server.logic.tables.TitleTable;
-import server.logic.tables.UserTable;
 
 public class RemoveTitleTest {
 	OutputHandler outputHandler = new OutputHandler();

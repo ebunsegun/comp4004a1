@@ -16,6 +16,7 @@ public class InputHandler {
     public static final int DELETEUSER=9;
     public static final int DELETETITLE=10;
     public static final int DELETEITEM=11;
+    public static final int MONITORSYSTEM=12;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -88,6 +89,9 @@ public class InputHandler {
 	            	state=DELETEITEM;
 	            	oo.setOutput(output);
 		            oo.setState(state);
+	            } else if (input.equalsIgnoreCase("monitor system")) {
+	            	state=MONITORSYSTEM;
+		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("log out")){
 	            	output = "Successfully Log Out!";
 	                state = WAITING;
@@ -95,13 +99,13 @@ public class InputHandler {
 		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	} else{
 	            	output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -116,7 +120,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -135,7 +139,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -154,7 +158,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -173,7 +177,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -192,7 +196,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -210,7 +214,8 @@ public class InputHandler {
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
-	        		output = "What can I do for you?Menu:Create User/Title/Item,Delete User/Title/Item.";
+	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -221,6 +226,12 @@ public class InputHandler {
 	        		oo.setOutput(output);
 		            oo.setState(state);
 	        	}
+	        } else if(state==MONITORSYSTEM){
+	        	o=outputHandler.monitorSystem();
+	        	output=o.getOutput();
+        		state=o.getState();
+        		oo.setOutput(output);
+	            oo.setState(state);
 	        }
 	        return oo;
 	}

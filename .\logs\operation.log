@@ -1834,4 +1834,208 @@
 @2017-10-10 00:53:01 INFO  String:98 - Operation:Delete Item;Item Info:[9781487667191,1];State:Fail;Reason:The Item Does Not Exist.
 @2017-10-10 00:53:01 INFO  String:47 - Operation:Create New Item;Item Info:[9874567931876,N/A];State:Fail;Reason:No such ISBN existed.
 @2017-10-10 00:53:01 INFO  String:44 - Operation:Create New Item;Item Info:[9781442668584,2];State:Success
+@2017-10-10 01:02:20 INFO  LibServer:34 - Binding to port 5050
+@2017-10-10 01:02:20 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 01:02:20 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-10 01:02:20 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-10 01:02:20 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-10 01:02:20 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-10 01:02:20 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-10 01:02:20,0]]
+@2017-10-10 01:02:20 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-10 01:02:20 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-10 01:02:24 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:57119] Client Socket: [57119 ]
+
+@2017-10-10 01:02:24 INFO  LibClient:31 - 57119 : Connected to server: /127.0.0.1
+@2017-10-10 01:02:24 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 01:02:24 INFO  LibClient:32 - 57119 : Connected to portid: 57119
+@2017-10-10 01:02:24 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57119
+@2017-10-10 01:02:28 INFO  LibServer:102 - Input from 127.0.0.1:57119 hello
+@2017-10-10 01:02:28 INFO  LibServer:119 - Output to 127.0.0.1:57119 Who Are you?Librarian or User?
+
+@2017-10-10 01:02:33 INFO  LibServer:102 - Input from 127.0.0.1:57119 librarian
+@2017-10-10 01:02:33 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please Input The Password:
+
+@2017-10-10 01:03:09 INFO  LibServer:102 - Input from 127.0.0.1:57119 admin
+@2017-10-10 01:03:09 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine.
+
+@2017-10-10 01:03:52 INFO  LibServer:102 - Input from 127.0.0.1:57119 monitor system
+@2017-10-10 01:03:52 INFO  LibServer:111 - Output to 127.0.0.1:57119 
+
+@2017-10-10 01:03:53 INFO  LibServer:102 - Input from 127.0.0.1:57119 
+@2017-10-10 01:03:53 INFO  LibServer:111 - Output to 127.0.0.1:57119 
+
+@2017-10-10 01:03:53 INFO  LibServer:102 - Input from 127.0.0.1:57119 
+@2017-10-10 01:03:53 INFO  LibServer:111 - Output to 127.0.0.1:57119 Who Are you?Librarian or User?
+
+@2017-10-10 01:03:57 INFO  LibServer:102 - Input from 127.0.0.1:57119 librarian
+@2017-10-10 01:03:57 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please Input The Password:
+
+@2017-10-10 01:04:01 INFO  LibServer:102 - Input from 127.0.0.1:57119 admin
+@2017-10-10 01:04:01 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine.
+
+@2017-10-10 01:04:43 INFO  LibServer:102 - Input from 127.0.0.1:57119 add user
+@2017-10-10 01:04:43 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:04:49 INFO  LibServer:102 - Input from 127.0.0.1:57119 create user
+@2017-10-10 01:04:49 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please Input User Info:'username,password'
+
+@2017-10-10 01:05:01 INFO  LibServer:102 - Input from 127.0.0.1:57119 Ebun@carleton.ca,Ebun
+@2017-10-10 01:05:01 INFO  String:44 - Operation:Create New User;User Info:[Ebun@carleton.ca,Ebun];State:Success
+@2017-10-10 01:05:01 INFO  LibServer:111 - Output to 127.0.0.1:57119 Success!
+
+@2017-10-10 01:05:03 INFO  LibServer:102 - Input from 127.0.0.1:57119 
+@2017-10-10 01:05:03 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:05:10 INFO  LibServer:102 - Input from 127.0.0.1:57119 delete user
+@2017-10-10 01:05:10 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please Input User Info:'useremail'
+
+@2017-10-10 01:05:23 INFO  LibServer:102 - Input from 127.0.0.1:57119 ebun@carleton.ca
+@2017-10-10 01:05:23 INFO  String:109 - Operation:Delete User;User Info:[Ebun@carleton.ca,Ebun];State:Success
+@2017-10-10 01:05:23 INFO  LibServer:111 - Output to 127.0.0.1:57119 Success!
+
+@2017-10-10 01:06:28 INFO  LibServer:102 - Input from 127.0.0.1:57119 create title
+@2017-10-10 01:06:28 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please Input Item Info:'ISBN'
+
+@2017-10-10 01:06:37 INFO  LibServer:102 - Input from 127.0.0.1:57119 1234568909865
+@2017-10-10 01:06:37 INFO  LibServer:111 - Output to 127.0.0.1:57119 Your input should be in this format:'ISBN,title',ISBN should be a 13-digit number
+
+@2017-10-10 01:06:46 INFO  LibServer:102 - Input from 127.0.0.1:57119 1234567891011
+@2017-10-10 01:06:46 INFO  LibServer:111 - Output to 127.0.0.1:57119 Your input should be in this format:'ISBN,title',ISBN should be a 13-digit number
+
+@2017-10-10 01:07:07 INFO  LibServer:102 - Input from 127.0.0.1:57119 1234567891011,you
+@2017-10-10 01:07:07 INFO  String:42 - Operation:Create New Title;Title Info:[1234567891011,you];State:Success
+@2017-10-10 01:07:07 INFO  LibServer:111 - Output to 127.0.0.1:57119 Success!
+
+@2017-10-10 01:07:15 INFO  LibServer:102 - Input from 127.0.0.1:57119 delete title
+@2017-10-10 01:07:15 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please Input Title Info:'ISBN'
+
+@2017-10-10 01:07:29 INFO  LibServer:102 - Input from 127.0.0.1:57119 1234567891011
+@2017-10-10 01:07:29 INFO  String:84 - Operation:Delete Title;Title Info:[1234567891011,you];State:Success
+@2017-10-10 01:07:29 INFO  LibServer:111 - Output to 127.0.0.1:57119 Success!
+
+@2017-10-10 01:23:51 INFO  LibServer:102 - Input from 127.0.0.1:57119 null
+@2017-10-10 01:23:51 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:23:51 INFO  LibServer:102 - Input from 127.0.0.1:57119 null
+@2017-10-10 01:23:51 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:23:51 INFO  LibServer:102 - Input from 127.0.0.1:57119 null
+@2017-10-10 01:23:51 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:23:51 INFO  LibServer:102 - Input from 127.0.0.1:57119 null
+@2017-10-10 01:23:51 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:23:51 INFO  LibServer:102 - Input from 127.0.0.1:57119 null
+@2017-10-10 01:23:51 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:23:51 INFO  LibServer:102 - Input from 127.0.0.1:57119 null
+@2017-10-10 01:23:51 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:23:51 INFO  LibServer:102 - Input from 127.0.0.1:57119 null
+@2017-10-10 01:23:51 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Protocol wrong type for socket (Write failed) 
+
+@2017-10-10 01:23:51 INFO  LibServer:111 - Output to 127.0.0.1:57119 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:27:17 INFO  LibServer:34 - Binding to port 5050
+@2017-10-10 01:27:17 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 01:27:17 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-10 01:27:17 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-10 01:27:17 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-10 01:27:17 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-10 01:27:17 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-10 01:27:17,0]]
+@2017-10-10 01:27:17 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-10 01:27:17 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-10 01:27:22 INFO  LibServer:34 - Binding to port 5050
+@2017-10-10 01:27:22 FATAL LibServer:40 - java.net.BindException: Address already in use (Bind failed)
+@2017-10-10 01:27:36 INFO  LibServer:34 - Binding to port 5050
+@2017-10-10 01:27:36 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 01:27:36 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-10 01:27:36 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-10 01:27:36 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-10 01:27:36 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-10 01:27:36 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-10 01:27:36,0]]
+@2017-10-10 01:27:36 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-10 01:27:36 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-10 01:27:40 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:57256] Client Socket: [57256 ]
+
+@2017-10-10 01:27:40 INFO  LibClient:31 - 57256 : Connected to server: /127.0.0.1
+@2017-10-10 01:27:40 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 01:27:40 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__57256
+@2017-10-10 01:27:40 INFO  LibClient:32 - 57256 : Connected to portid: 57256
+@2017-10-10 01:27:44 INFO  LibServer:102 - Input from 127.0.0.1:57256 he
+@2017-10-10 01:27:44 INFO  LibServer:119 - Output to 127.0.0.1:57256 Who Are you?Librarian or User?
+
+@2017-10-10 01:27:49 INFO  LibServer:102 - Input from 127.0.0.1:57256 librarian
+@2017-10-10 01:27:49 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please Input The Password:
+
+@2017-10-10 01:27:51 INFO  LibServer:102 - Input from 127.0.0.1:57256 admin
+@2017-10-10 01:27:51 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:28:00 INFO  LibServer:102 - Input from 127.0.0.1:57256 monitor system
+@2017-10-10 01:28:00 INFO  LibServer:111 - Output to 127.0.0.1:57256 
+
+@2017-10-10 01:28:17 INFO  LibServer:102 - Input from 127.0.0.1:57256 
+@2017-10-10 01:28:17 INFO  LibServer:111 - Output to 127.0.0.1:57256 BOOK TITLES
+9781442668584 - By the grace of God
+9781442616899 - Dante's lyric poetry 
+9781442667181 - Courtesy lost
+9781611687910 - Writing for justice
+9781317594277 - The act in context
+
+
+USERS
+Zhibo@carleton.ca
+Yu@carleton.ca
+Michelle@carleton.ca
+Kevin@carleton.ca
+Sun@carleton.ca
+
+
+@2017-10-10 01:28:25 INFO  LibServer:102 - Input from 127.0.0.1:57256 
+@2017-10-10 01:28:25 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 01:34:54 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-10 01:34:54 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-10 01:35:10 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-10 01:35:10 INFO  String:42 - Operation:Create New Title;Title Info:[9874567231876,New beginnigs];State:Success
+@2017-10-10 01:35:10 INFO  String:45 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 01:35:10 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-10 01:35:10 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-10 01:35:10,0]]
+@2017-10-10 01:35:10 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-10 01:35:10 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-10 01:35:10 INFO  String:109 - Operation:Delete User;User Info:[Kevin@carleton.ca,Kevin];State:Success
+@2017-10-10 01:35:10 INFO  String:112 - Operation:Delete User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:Outstanding Fee Exists.
+@2017-10-10 01:35:10 INFO  String:87 - Operation:Delete Title;ISBN Info:[9781442668584];State:Fail;Reason:Active Loan Exists.
+@2017-10-10 01:35:10 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-10 01:35:10 INFO  String:107 - Operation:Delete Item Due to Title Deletion;ISBN Info:[9781442667181];State:Success
+@2017-10-10 01:35:10 INFO  String:84 - Operation:Delete Title;Title Info:[9781442667181,Courtesy lost];State:Success
+@2017-10-10 01:35:10 INFO  String:91 - Operation:Delete Title;ISBN Info:[9781487667191];State:Fail;Reason:The Title Does Not Exist.
+@2017-10-10 01:35:10 INFO  String:47 - Operation:Create New User;User Info:[Michelle@carleton.ca,Michelle];State:Fail;Reason:The User already existed.
+@2017-10-10 01:35:10 INFO  String:44 - Operation:Create New User;User Info:[Carly@carleton.ca,Carly];State:Success
+@2017-10-10 01:35:10 INFO  String:94 - Operation:Delete Item;Item Info:[9781442668584,1];State:Fail;Reason:The item is currently on loan.
+@2017-10-10 01:35:10 INFO  String:91 - Operation:Delete Item;Item Info:[9781611687910,N/A];State:Success
+@2017-10-10 01:35:10 INFO  String:98 - Operation:Delete Item;Item Info:[9781487667191,1];State:Fail;Reason:The Item Does Not Exist.
+@2017-10-10 01:35:10 INFO  String:47 - Operation:Create New Item;Item Info:[9874567931876,N/A];State:Fail;Reason:No such ISBN existed.
+@2017-10-10 01:35:10 INFO  String:44 - Operation:Create New Item;Item Info:[9781442668584,2];State:Success
+@2017-10-10 01:38:09 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context]]
+@2017-10-10 01:38:09 INFO  String:42 - Operation:Create New Title;Title Info:[9874567231876,New beginnigs];State:Success
+@2017-10-10 01:38:09 INFO  String:45 - Operation:Create New Title;Title Info:[9781442668584,By the grace of God];State:Fail;Reason:The ISBN already existed.
+@2017-10-10 01:38:09 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun]]
+@2017-10-10 01:38:09 INFO  String:25 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-10 01:38:09,0]]
+@2017-10-10 01:38:09 INFO  String:98 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-10 01:38:09 INFO  String:122 - Operation:Initialize FeeTable;FeeTable: [[0,5]]
+@2017-10-10 01:38:09 INFO  String:109 - Operation:Delete User;User Info:[Kevin@carleton.ca,Kevin];State:Success
+@2017-10-10 01:38:09 INFO  String:112 - Operation:Delete User;User Info:[Zhibo@carleton.ca,Zhibo];State:Fail;Reason:Outstanding Fee Exists.
+@2017-10-10 01:38:09 INFO  String:87 - Operation:Delete Title;ISBN Info:[9781442668584];State:Fail;Reason:Active Loan Exists.
+@2017-10-10 01:38:09 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1]]
+@2017-10-10 01:38:09 INFO  String:107 - Operation:Delete Item Due to Title Deletion;ISBN Info:[9781442667181];State:Success
+@2017-10-10 01:38:09 INFO  String:84 - Operation:Delete Title;Title Info:[9781442667181,Courtesy lost];State:Success
+@2017-10-10 01:38:09 INFO  String:91 - Operation:Delete Title;ISBN Info:[9781487667191];State:Fail;Reason:The Title Does Not Exist.
+@2017-10-10 01:38:09 INFO  String:47 - Operation:Create New User;User Info:[Michelle@carleton.ca,Michelle];State:Fail;Reason:The User already existed.
+@2017-10-10 01:38:09 INFO  String:44 - Operation:Create New User;User Info:[Carly@carleton.ca,Carly];State:Success
+@2017-10-10 01:38:09 INFO  String:94 - Operation:Delete Item;Item Info:[9781442668584,1];State:Fail;Reason:The item is currently on loan.
+@2017-10-10 01:38:09 INFO  String:91 - Operation:Delete Item;Item Info:[9781611687910,N/A];State:Success
+@2017-10-10 01:38:09 INFO  String:98 - Operation:Delete Item;Item Info:[9781487667191,1];State:Fail;Reason:The Item Does Not Exist.
+@2017-10-10 01:38:09 INFO  String:47 - Operation:Create New Item;Item Info:[9874567931876,N/A];State:Fail;Reason:No such ISBN existed.
+@2017-10-10 01:38:09 INFO  String:44 - Operation:Create New Item;Item Info:[9781442668584,2];State:Success
 @

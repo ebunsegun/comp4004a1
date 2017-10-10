@@ -45,7 +45,7 @@ public class OutputHandler {
 		Output output=new Output("",0);
 		if(input.equalsIgnoreCase(Config.LIBRARIAN_PASSWORD)){
 			output.setOutput("Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-        			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.");
+        			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.");
         	output.setState(LIBRARIAN);
 		}else{
 			output.setOutput("Wrong Password!Please Input The Password:");
@@ -191,6 +191,24 @@ public class OutputHandler {
             	output.setState(LIBRARIAN);
         	}
         }
+		return output;
+	}
+	
+	public Output monitorSystem() {
+		Output output=new Output("",0);
+		String bookTitles ="BOOK TITLES\n";
+		String users = "USERS\n";
+		for (int i=0; i< TitleTable.getInstance().getTitleTable().size(); i++) {
+			bookTitles += TitleTable.getInstance().getTitleTable().get(i).getISBN() + " - " +
+					TitleTable.getInstance().getTitleTable().get(i).getBooktitle() + "\n"; 
+		}
+		
+		for (int i=0; i< UserTable.getInstance().getUserTable().size(); i++) {
+			users += UserTable.getInstance().getUserTable().get(i).getUsername() + "\n"; 
+		}
+		
+		output.setOutput(bookTitles + "\n" + users);
+		output.setState(LIBRARIAN);
 		return output;
 	}
 	public static boolean isInteger(String value) {
