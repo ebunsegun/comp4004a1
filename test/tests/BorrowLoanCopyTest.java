@@ -1,11 +1,13 @@
 package tests;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 import server.logic.handler.OutputHandler;
 import server.logic.handler.model.Output;
+import server.logic.tables.LoanTable;
 
 public class BorrowLoanCopyTest {
 	OutputHandler outputHandler = new OutputHandler();
@@ -27,6 +29,8 @@ public class BorrowLoanCopyTest {
     	Output output = outputHandler.borrow(userWithoutFee);
     	assertEquals("Success!", output.getOutput());
     	assertEquals(USER, output.getState()); 
+    	assertTrue(LoanTable.getInstance().lookup("9781442616899", "1"));
+    	
     }
     
     @Test

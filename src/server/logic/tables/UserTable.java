@@ -16,8 +16,8 @@ public class UserTable {
     }
     private UserTable(){
     	//set up the default list with some instances
-    	String[] passwordList=new String[]{"Zhibo","Yu","Michelle","Kevin","Sun"};
-    	String[] usernameList=new String[]{"Zhibo@carleton.ca","Yu@carleton.ca","Michelle@carleton.ca","Kevin@carleton.ca","Sun@carleton.ca"};
+    	String[] passwordList=new String[]{"Zhibo","Yu","Michelle","Kevin","Sun","Fifi"};
+    	String[] usernameList=new String[]{"Zhibo@carleton.ca","Yu@carleton.ca","Michelle@carleton.ca","Kevin@carleton.ca","Sun@carleton.ca","Fifi@carleton.ca"};
     	for(int i=0;i<usernameList.length;i++){
 			User deuser=new User(i,usernameList[i],passwordList[i]);
 			userList.add(deuser);
