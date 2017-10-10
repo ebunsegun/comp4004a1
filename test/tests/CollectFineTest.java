@@ -14,7 +14,7 @@ import server.logic.tables.UserTable;
 
 public class CollectFineTest {
 	OutputHandler outputHandler = new OutputHandler();
-    public static final int LIBRARIAN = 2;
+    public static final int USER = 3;
     public static final int COLLECTFINE = 13;
     String username = "Kevin@carleton.ca";
 	int userId = UserTable.getInstance().lookup(username);
@@ -33,18 +33,18 @@ public class CollectFineTest {
     @Test
     public void collectFineFromUserTest() {
     	FeeTable.getInstance().getFeeTable().add(fee); 
-    	Output output = outputHandler.collectFine(username);
+    	Output output = outputHandler.payFine(username);
 		assertEquals("Success!", output.getOutput());
-		assertEquals(LIBRARIAN, output.getState());    	
+		assertEquals(USER, output.getState());    	
     	assertFalse(FeeTable.getInstance().lookup(userId));
     	assertEquals(0, FeeTable.getInstance().lookupfee(userId));
     }
     
     @Test
     public void noOutstandingFeeTest() {
-    	Output output = outputHandler.collectFine(userNotOwing);
+    	Output output = outputHandler.payFine(userNotOwing);
 		assertEquals("No Outstanding Fees To Be Payed!", output.getOutput());
-		assertEquals(LIBRARIAN, output.getState());    	
+		assertEquals(USER, output.getState());    	
     	assertFalse(FeeTable.getInstance().lookup(userIdNotOwing));
     	assertEquals(0, FeeTable.getInstance().lookupfee(userIdNotOwing));
     }

@@ -48,7 +48,7 @@ public class OutputHandler {
 		Output output=new Output("",0);
 		if(input.equalsIgnoreCase(Config.LIBRARIAN_PASSWORD)){
 			output.setOutput("Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-        			+ "Collect Fine,Monitor System.");
+        			+ "Monitor System.");
         	output.setState(LIBRARIAN);
 		}else{
 			output.setOutput("Wrong Password!Please Input The Password:");
@@ -215,7 +215,7 @@ public class OutputHandler {
 		return output;
 	}
 	
-	public Output collectFine(String input) {
+	public Output payFine(String input) {
 		Output output=new Output("",0);
         boolean email=input.contains("@");
         int userid=UserTable.getInstance().lookup(input);
@@ -233,7 +233,7 @@ public class OutputHandler {
         		}else{
             		output.setOutput(result+"!");
             	}
-        		output.setState(LIBRARIAN);
+        		output.setState(USER);
         	}
         	
 		return output;
