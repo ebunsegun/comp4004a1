@@ -27,6 +27,7 @@ public class OutputHandler {
     public static final int COLLECTFINE=13;
     public static final int BORROWLOANCOPY=14;
     public static final int RENEW=15;
+    public static final int RETURN=16;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);
@@ -306,6 +307,39 @@ public class OutputHandler {
         	output.setState(USER);
         }
 		return output;
+	}
+	
+	public Output returnBook(String input) {
+		Output output=new Output("",0);
+		String[] strArray = null;   
+        strArray = input.split(",");
+        boolean email=strArray[0].contains("@");
+        int userid=UserTable.getInstance().lookup(strArray[0]);
+        Object result="";
+        if(strArray.length!=3 || email!=true){
+        	output.setOutput("Your input should in this format:'useremail,ISBN,copynumber'");
+        	output.setState(RETURN);
+        }else if(userid==-1){
+        	output.setOutput("The User Does Not Exist!");
+        	output.setState(RETURN);
+        }else{
+        	boolean ISBN=isInteger(strArray[1]);
+        	boolean copynumber=isNumber(strArray[2]);
+        	if(ISBN!=true || copynumber!=true){
+        		output.setOutput("Your input should in this format:'useremail,ISBN,copynumber'");
+            	output.setState(RETURN);
+        	}else{
+        		result=LoanTable.getInstance().returnItem(userid, strArray[1], strArray[2], new Date());
+        		if(result.equals("success")){
+            		output.setOutput("Success!");
+            	}else{
+            		output.setOutput(result+"!");
+            	}
+        	}
+        	output.setState(USER);
+        }
+		return output;
+
 	}
 	
 	public static boolean isInteger(String value) {

@@ -20,6 +20,7 @@ public class InputHandler {
     public static final int PAYFINE=13;
     public static final int BORROWLOANCOPY=14;
     public static final int RENEW=15;
+    public static final int RETURN=16;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -128,6 +129,11 @@ public class InputHandler {
 	            	output = "Please Input Title Info:'useremail,ISBN,copynumber'";
 	            	state=RENEW;
 	            	oo.setOutput(output);
+		            oo.setState(state);
+	            } else if (input.equalsIgnoreCase("return")) {
+		            output = "Please Input Item Info:'useremail,ISBN,copynumber'";
+		            state=RETURN;
+		            oo.setOutput(output);
 		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("main menu")){
 	        		output = "What can I do for you?Menu:Borrow,Renew,Return,Pay Fine.";
@@ -309,6 +315,25 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else{
 	        		o=outputHandler.renew(input);
+	        		output=o.getOutput();
+	        		state=o.getState();
+	        		oo.setOutput(output);
+		            oo.setState(state);
+	        	}
+	        }
+	        else if(state==RETURN){
+	        	if(input.equalsIgnoreCase("log out")){
+	            	output = "Successfully Log Out!";
+	                state = WAITING;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else if(input.equalsIgnoreCase("main menu")){
+	        		output = "What can I do for you?Menu:Borrow,Renew,Return,Pay Fine.";
+	                state = USER;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else{
+	        		o=outputHandler.returnBook(input);
 	        		output=o.getOutput();
 	        		state=o.getState();
 	        		oo.setOutput(output);
