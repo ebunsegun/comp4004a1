@@ -99,20 +99,18 @@ public class InputHandler {
 		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
+	            			+ "Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
 	        	} else{
 	            	output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
+	            			+  "Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
 	            }
-	        }else if (state==USER){ 
-	        	
-	        }else if(state==CREATEUSER){
+	        } else if(state==CREATEUSER){
 	        	if(input.equalsIgnoreCase("log out")){
 	            	output = "Successfully Log Out!";
 	                state = WAITING;
@@ -120,7 +118,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
+	            			+ "Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -139,7 +137,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
+	            			+ "Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -158,7 +156,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
+	            			+ "Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -177,7 +175,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
+	            			+ "Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -196,7 +194,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
+	            			+ "Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -215,7 +213,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.";
+	            			+ "Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -232,7 +230,7 @@ public class InputHandler {
         		state=o.getState();
         		oo.setOutput(output);
 	            oo.setState(state);
-	        }
+	        } 
 	        return oo;
 	}
 

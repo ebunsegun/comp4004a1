@@ -2038,4 +2038,69 @@ Sun@carleton.ca
 @2017-10-10 01:38:09 INFO  String:98 - Operation:Delete Item;Item Info:[9781487667191,1];State:Fail;Reason:The Item Does Not Exist.
 @2017-10-10 01:38:09 INFO  String:47 - Operation:Create New Item;Item Info:[9874567931876,N/A];State:Fail;Reason:No such ISBN existed.
 @2017-10-10 01:38:09 INFO  String:44 - Operation:Create New Item;Item Info:[9781442668584,2];State:Success
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
+@2017-10-10 02:17:28 INFO  LibServer:102 - Input from 127.0.0.1:57256 null
+@2017-10-10 02:17:28 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-10 02:17:28 INFO  LibServer:111 - Output to 127.0.0.1:57256 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.
+
 @

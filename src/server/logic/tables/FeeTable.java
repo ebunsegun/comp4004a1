@@ -140,8 +140,8 @@ public class FeeTable {
 			fee=0;
 		}
 		if(oloan==false){
-			result="Borrowing Items Exist";
-			logger.info(String.format("Operation:Pay Fine;Fee Info:[%d,%d];State:Fail;Reason:Borrowing Items Exist.", i,fee));
+			result="Borrowed Items Exist";
+			logger.info(String.format("Operation:Pay Fine;Fee Info:[%d,%d];State:Fail;Reason:Borrowed Items Exist.", i,fee));
 		}else{
 			feeList.get(index).setUserid(i);
 			feeList.get(index).setFee(0);

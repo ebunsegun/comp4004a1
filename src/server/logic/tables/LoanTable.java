@@ -32,7 +32,7 @@ public class LoanTable {
 		boolean user=UserTable.getInstance().lookup(i);
 		boolean isbn=TitleTable.getInstance().lookup(string);
 		boolean copynumber=ItemTable.getInstance().lookup(string,string2);
-		boolean oloan=LoanTable.getInstance().lookup(i,string,string2);
+		boolean oloan=LoanTable.getInstance().lookup(string,string2);
 		boolean limit=LoanTable.getInstance().checkLimit(i);
 		boolean fee=FeeTable.getInstance().lookup(i);
 		if(user==false){
@@ -47,10 +47,10 @@ public class LoanTable {
 		}else{
 			if(oloan){
 				if(limit && fee){
-				Loan loan=new Loan(i,string,string2,date,"0");
-				loanList.add(loan);
-				result="success";
-				logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Success", i,string,string2,dateformat(date)));
+					Loan loan=new Loan(i,string,string2,date,"0");
+					loanList.add(loan);
+					result="success";
+					logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Success", i,string,string2,dateformat(date)));
 				}else if(limit==false){
 					result="The Maximun Number of Items is Reached";
 					logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:The Maximun Number of Items is Reached.", i,string,string2,dateformat(date)));
@@ -67,13 +67,13 @@ public class LoanTable {
 	}
 	
 	
-	public boolean lookup(int j, String string, String string2) {
+	public boolean lookup(String isbn, String cn) {
 		boolean result=true;
 		int flag=0;
 		for(int i=0;i<loanList.size();i++){
 			String ISBN=(loanList.get(i)).getIsbn();
 			String copynumber=(loanList.get(i)).getCopynumber();
-			if(ISBN.equalsIgnoreCase(string) && copynumber.equalsIgnoreCase(string2)){
+			if(ISBN.equalsIgnoreCase(isbn) && copynumber.equalsIgnoreCase(cn)){
 				flag=flag+1;
 			}else{
 				flag=flag+0;	
@@ -186,6 +186,7 @@ public class LoanTable {
 	public List<Loan> getLoanTable() {
 		return loanList;
 	}
+	//There is a limit to the number of books a user can borrow
 	public boolean looklimit(int j) {
 		boolean result=true;
 		int flag=0;

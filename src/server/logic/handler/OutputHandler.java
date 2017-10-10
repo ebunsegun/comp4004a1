@@ -19,6 +19,7 @@ public class OutputHandler {
     public static final int DELETEUSER=9;
     public static final int DELETETITLE=10;
     public static final int DELETEITEM=11;
+    public static final int MONITORSYSTEM=12;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);
@@ -45,7 +46,7 @@ public class OutputHandler {
 		Output output=new Output("",0);
 		if(input.equalsIgnoreCase(Config.LIBRARIAN_PASSWORD)){
 			output.setOutput("Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-        			+ "Borrow Loancopy, Return LoanCopy, Collect Fine, Monitor System.");
+        			+ "Monitor System.");
         	output.setState(LIBRARIAN);
 		}else{
 			output.setOutput("Wrong Password!Please Input The Password:");
@@ -211,6 +212,7 @@ public class OutputHandler {
 		output.setState(LIBRARIAN);
 		return output;
 	}
+	
 	public static boolean isInteger(String value) {
 		char[] ch = value.toCharArray();
 		boolean isNumber=true;
