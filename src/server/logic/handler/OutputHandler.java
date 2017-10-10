@@ -17,6 +17,7 @@ public class OutputHandler {
     public static final int CREATETITLE=7;
     public static final int CREATEITEM=8;
     public static final int DELETEUSER=9;
+    public static final int DELETETITLE=10;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);
@@ -134,6 +135,26 @@ public class OutputHandler {
         	output.setState(DELETEUSER);
         }else{
         	result=UserTable.getInstance().delete(userid);
+        	if(result.equals("success")){
+        		output.setOutput("Success!");
+        	}else{
+        		output.setOutput(result+"!");
+        	}
+        	output.setState(LIBRARIAN);
+        }
+		return output;
+	}
+	public Output removeTitle(String input) {
+		Output output=new Output("",0);
+		String[] strArray = null;   
+        strArray = input.split(",");
+        boolean number=isInteger(strArray[0]);
+        Object result="";
+        if(strArray.length!=1 || number!=true){
+        	output.setOutput("Your input should be in this format:'ISBN',ISBN should be a 13-digit number");
+        	output.setState(DELETETITLE);
+        }else{
+        	result=TitleTable.getInstance().delete(strArray[0]);
         	if(result.equals("success")){
         		output.setOutput("Success!");
         	}else{

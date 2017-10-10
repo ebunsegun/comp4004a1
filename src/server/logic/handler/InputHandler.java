@@ -14,6 +14,7 @@ public class InputHandler {
     public static final int CREATETITLE=7;
     public static final int CREATEITEM=8;
     public static final int DELETEUSER=9;
+    public static final int DELETETITLE=10;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -75,6 +76,11 @@ public class InputHandler {
 	            	output = "Please Input User Info:'useremail'";
 	            	state=DELETEUSER;
 	            	oo.setOutput(output);
+		            oo.setState(state);
+	            } else if (input.equalsIgnoreCase("delete title")) {
+		            output = "Please Input Title Info:'ISBN'";
+		            state=DELETETITLE;
+		            oo.setOutput(output);
 		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("log out")){
 	            	output = "Successfully Log Out!";
@@ -167,6 +173,25 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else{
 	        		o=outputHandler.removeUser(input);
+	        		output=o.getOutput();
+	        		state=o.getState();
+	        		oo.setOutput(output);
+		            oo.setState(state);
+	        	}
+	        } else if(state==DELETETITLE){
+	        	if(input.equalsIgnoreCase("log out")){
+	            	output = "Successfully Log Out!";
+	                state = WAITING;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else if(input.equalsIgnoreCase("main menu")){
+	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
+	            			+ "Borrow Loancopy, Return LoanCopy, Collect Fine.";
+	                state = LIBRARIAN;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else{
+	        		o=outputHandler.removeTitle(input);
 	        		output=o.getOutput();
 	        		state=o.getState();
 	        		oo.setOutput(output);

@@ -33,9 +33,11 @@ public class RemoveUserTest {
 	
 	@Test
 	public void existingUserWithOutstandingFeesTest() {
+		int userId = UserTable.getInstance().lookup(existingUserOwingFine);
 		Output output = outputHandler.removeUser(existingUserOwingFine);
 		assertEquals("Outstanding Fee Exists!", output.getOutput());
 		assertEquals(LIBRARIAN, output.getState());
+		assertEquals(UserTable.getInstance().lookup(existingUserOwingFine), userId);
 	}
 	
 	@Test
