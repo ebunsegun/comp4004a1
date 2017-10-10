@@ -2996,4 +2996,323 @@ Sun@carleton.ca
 @2017-10-10 19:19:54 INFO  String:137 - Operation:Pay Fine;Fee Info:[3,10];State:Success
 @2017-10-10 19:19:54 INFO  String:47 - Operation:Create New Item;Item Info:[9874567931876,N/A];State:Fail;Reason:No such ISBN existed.
 @2017-10-10 19:19:54 INFO  String:44 - Operation:Create New Item;Item Info:[9781442668584,2];State:Success
+@2017-10-10 19:22:38 INFO  LibServer:34 - Binding to port 5050
+@2017-10-10 19:22:38 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:22:38 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-10 19:22:38 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
+@2017-10-10 19:22:38 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context], [9876543211013,ABC], [9293949599321,To Know]]
+@2017-10-10 19:22:38 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1], [4,9293949599321,1]]
+@2017-10-10 19:22:38 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-10 07:22:38,0], [1,9781442668584,1,2017-10-10 07:22:38,0]]
+@2017-10-10 19:22:38 INFO  String:96 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-10 19:22:38 INFO  String:106 - Operation:Apply OutStanding Fee;Fee Info:[1,0];State:Success
+@2017-10-10 19:22:38 INFO  String:120 - Operation:Initialize FeeTable;FeeTable: [[0,5], [1,0]]
+@2017-10-10 19:22:46 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:60808] Client Socket: [60808 ]
+
+@2017-10-10 19:22:46 INFO  LibClient:31 - 60808 : Connected to server: /127.0.0.1
+@2017-10-10 19:22:46 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:22:46 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60808
+@2017-10-10 19:22:46 INFO  LibClient:32 - 60808 : Connected to portid: 60808
+@2017-10-10 19:22:50 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:60809] Client Socket: [60809 ]
+
+@2017-10-10 19:22:50 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:22:50 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60809
+@2017-10-10 19:22:50 INFO  LibClient:31 - 60809 : Connected to server: /127.0.0.1
+@2017-10-10 19:22:50 INFO  LibClient:32 - 60809 : Connected to portid: 60809
+@2017-10-10 19:22:54 INFO  LibServer:102 - Input from 127.0.0.1:60809 hello
+@2017-10-10 19:22:54 INFO  LibServer:119 - Output to 127.0.0.1:60809 Who Are you?Librarian or User?
+
+@2017-10-10 19:22:57 INFO  LibServer:102 - Input from 127.0.0.1:60809 librarian
+@2017-10-10 19:22:57 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please Input The Password:
+
+@2017-10-10 19:22:59 INFO  LibServer:102 - Input from 127.0.0.1:60809 admin
+@2017-10-10 19:22:59 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:12 INFO  LibServer:102 - Input from 127.0.0.1:60808 hello
+@2017-10-10 19:23:12 INFO  LibServer:119 - Output to 127.0.0.1:60808 Who Are you?Librarian or User?
+
+@2017-10-10 19:23:15 INFO  LibServer:102 - Input from 127.0.0.1:60808 librarian
+@2017-10-10 19:23:15 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please Input The Password:
+
+@2017-10-10 19:23:18 INFO  LibServer:102 - Input from 127.0.0.1:60808 admin
+@2017-10-10 19:23:18 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:23:21 INFO  LibServer:102 - Input from 127.0.0.1:60808 null
+@2017-10-10 19:23:21 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-10 19:23:21 INFO  LibServer:111 - Output to 127.0.0.1:60808 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:27:51 INFO  LibServer:102 - Input from 127.0.0.1:60809 null
+@2017-10-10 19:27:51 INFO  ServerThread:44 - Class: ServerThread: Exception thrown : Broken pipe (Write failed) 
+
+@2017-10-10 19:27:51 INFO  LibServer:111 - Output to 127.0.0.1:60809 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:28:05 INFO  LibServer:34 - Binding to port 5050
+@2017-10-10 19:28:05 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:28:05 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-10 19:28:05 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
+@2017-10-10 19:28:05 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context], [9876543211013,ABC], [9293949599321,To Know]]
+@2017-10-10 19:28:05 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1], [4,9293949599321,1]]
+@2017-10-10 19:28:05 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-10 07:28:05,0], [1,9781442668584,1,2017-10-10 07:28:05,0]]
+@2017-10-10 19:28:05 INFO  String:96 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-10 19:28:05 INFO  String:106 - Operation:Apply OutStanding Fee;Fee Info:[1,0];State:Success
+@2017-10-10 19:28:05 INFO  String:120 - Operation:Initialize FeeTable;FeeTable: [[0,5], [1,0]]
+@2017-10-10 19:28:08 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:60866] Client Socket: [60866 ]
+
+@2017-10-10 19:28:08 INFO  LibClient:31 - 60866 : Connected to server: /127.0.0.1
+@2017-10-10 19:28:08 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:28:08 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60866
+@2017-10-10 19:28:08 INFO  LibClient:32 - 60866 : Connected to portid: 60866
+@2017-10-10 19:28:12 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:60867] Client Socket: [60867 ]
+
+@2017-10-10 19:28:12 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:28:12 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60867
+@2017-10-10 19:28:12 INFO  LibClient:31 - 60867 : Connected to server: /127.0.0.1
+@2017-10-10 19:28:12 INFO  LibClient:32 - 60867 : Connected to portid: 60867
+@2017-10-10 19:28:31 INFO  LibServer:102 - Input from 127.0.0.1:60867 null
+@2017-10-10 19:28:31 INFO  LibServer:119 - Output to 127.0.0.1:60867 Who Are you?Librarian or User?
+
+@2017-10-10 19:28:31 INFO  LibServer:102 - Input from 127.0.0.1:60867 null
+@2017-10-10 19:28:31 INFO  LibServer:111 - Output to 127.0.0.1:60867 Who Are you?Librarian or User?
+
+@2017-10-10 19:28:31 INFO  LibServer:102 - Input from 127.0.0.1:60867 null
+@2017-10-10 19:28:31 INFO  LibServer:111 - Output to 127.0.0.1:60867 Who Are you?Librarian or User?
+
+@2017-10-10 19:28:31 INFO  LibServer:102 - Input from 127.0.0.1:60867 null
+@2017-10-10 19:28:31 INFO  LibServer:111 - Output to 127.0.0.1:60867 Who Are you?Librarian or User?
+
+@2017-10-10 19:28:31 INFO  LibServer:102 - Input from 127.0.0.1:60867 null
+@2017-10-10 19:28:31 INFO  LibServer:111 - Output to 127.0.0.1:60867 Who Are you?Librarian or User?
+
+@2017-10-10 19:28:31 INFO  LibServer:102 - Input from 127.0.0.1:60867 null
+@2017-10-10 19:28:31 INFO  LibServer:111 - Output to 127.0.0.1:60867 Who Are you?Librarian or User?
+
+@2017-10-10 19:28:31 INFO  LibServer:102 - Input from 127.0.0.1:60867 null
+@2017-10-10 19:28:31 INFO  LibServer:111 - Output to 127.0.0.1:60867 Who Are you?Librarian or User?
+
+@2017-10-10 19:29:20 INFO  LibServer:34 - Binding to port 5050
+@2017-10-10 19:29:20 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:29:20 INFO  LibServer:48 - Server started: ServerSocket[addr=0.0.0.0/0.0.0.0,localport=5050] 9
+@2017-10-10 19:29:20 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
+@2017-10-10 19:29:20 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context], [9876543211013,ABC], [9293949599321,To Know]]
+@2017-10-10 19:29:20 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1], [4,9293949599321,1]]
+@2017-10-10 19:29:20 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-10 07:29:20,0], [1,9781442668584,1,2017-10-10 07:29:20,0]]
+@2017-10-10 19:29:20 INFO  String:96 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-10 19:29:20 INFO  String:106 - Operation:Apply OutStanding Fee;Fee Info:[1,0];State:Success
+@2017-10-10 19:29:20 INFO  String:120 - Operation:Initialize FeeTable;FeeTable: [[0,5], [1,0]]
+@2017-10-10 19:29:26 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:60875] Client Socket: [60875 ]
+
+@2017-10-10 19:29:26 INFO  LibClient:31 - 60875 : Connected to server: /127.0.0.1
+@2017-10-10 19:29:26 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:29:26 INFO  LibClient:32 - 60875 : Connected to portid: 60875
+@2017-10-10 19:29:26 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60875
+@2017-10-10 19:29:28 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:60876] Client Socket: [60876 ]
+
+@2017-10-10 19:29:28 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:29:28 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60876
+@2017-10-10 19:29:28 INFO  LibClient:31 - 60876 : Connected to server: /127.0.0.1
+@2017-10-10 19:29:28 INFO  LibClient:32 - 60876 : Connected to portid: 60876
+@2017-10-10 19:29:31 INFO  LibServer:102 - Input from 127.0.0.1:60876 hello
+@2017-10-10 19:29:31 INFO  LibServer:119 - Output to 127.0.0.1:60876 Who Are you?Librarian or User?
+
+@2017-10-10 19:29:34 INFO  LibServer:102 - Input from 127.0.0.1:60876 librarian
+@2017-10-10 19:29:34 INFO  LibServer:111 - Output to 127.0.0.1:60876 Please Input The Password:
+
+@2017-10-10 19:29:36 INFO  LibServer:102 - Input from 127.0.0.1:60876 admin
+@2017-10-10 19:29:36 INFO  LibServer:111 - Output to 127.0.0.1:60876 Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,Monitor System.
+
+@2017-10-10 19:29:42 INFO  LibServer:102 - Input from 127.0.0.1:60875 hello
+@2017-10-10 19:29:42 INFO  LibServer:119 - Output to 127.0.0.1:60875 Who Are you?Librarian or User?
+
+@2017-10-10 19:29:45 INFO  LibServer:102 - Input from 127.0.0.1:60875 librarian
+@2017-10-10 19:29:45 INFO  LibServer:111 - Output to 127.0.0.1:60875 Only one librarian allowed in the system
+
+@2017-10-10 19:29:48 INFO  LibServer:102 - Input from 127.0.0.1:60875 
+@2017-10-10 19:29:48 INFO  LibServer:111 - Output to 127.0.0.1:60875 Who Are you?Librarian or User?
+
+@2017-10-10 19:30:16 INFO  LibServer:102 - Input from 127.0.0.1:60875 librarian
+@2017-10-10 19:30:16 INFO  LibServer:111 - Output to 127.0.0.1:60875 Only one librarian allowed in the system
+
+@2017-10-10 19:30:17 INFO  LibServer:102 - Input from 127.0.0.1:60875 
+@2017-10-10 19:30:17 INFO  LibServer:111 - Output to 127.0.0.1:60875 Who Are you?Librarian or User?
+
+@2017-10-10 19:30:25 INFO  LibServer:102 - Input from 127.0.0.1:60875 user
+@2017-10-10 19:30:25 INFO  LibServer:111 - Output to 127.0.0.1:60875 Please Input Username and Password:'username,password'
+
+@2017-10-10 19:30:40 INFO  LibServer:102 - Input from 127.0.0.1:60875 zhibo@carleton.ca,Zhibo
+@2017-10-10 19:30:40 INFO  LibServer:111 - Output to 127.0.0.1:60875 What can I do for you?Menu:Borrow,Renew,Return,Pay Fine.
+
+@2017-10-10 19:30:44 INFO  LibServer:102 - Input from 127.0.0.1:60875 return
+@2017-10-10 19:30:44 INFO  LibServer:111 - Output to 127.0.0.1:60875 Please Input Item Info:'useremail,ISBN,copynumber'
+
+@2017-10-10 19:30:49 INFO  LibServer:102 - Input from 127.0.0.1:60875 
+@2017-10-10 19:30:49 INFO  LibServer:111 - Output to 127.0.0.1:60875 Your input should in this format:'useremail,ISBN,copynumber'
+
+@2017-10-10 19:31:42 INFO  LibServer:102 - Input from 127.0.0.1:60875 zhibo@carleton.ca,9781442668584,1
+@2017-10-10 19:31:42 INFO  String:176 - Operation:Return Item;Loan Info:[0,9781442668584,1,2017-10-10 07:31:42];State:Success
+@2017-10-10 19:31:42 INFO  LibServer:111 - Output to 127.0.0.1:60875 Success!
+
+@2017-10-10 19:32:37 INFO  LibServer:102 - Input from 127.0.0.1:60875 
+@2017-10-10 19:32:37 INFO  LibServer:111 - Output to 127.0.0.1:60875 Please select from the menu.Menu:Borrow,Renew,Return,Pay Fine.
+
+@2017-10-10 19:32:42 INFO  LibServer:102 - Input from 127.0.0.1:60875 borrow
+@2017-10-10 19:32:42 INFO  LibServer:111 - Output to 127.0.0.1:60875 Please Input User Info:'useremail,ISBN,copynumber'
+
+@2017-10-10 19:33:00 INFO  LibServer:72 - Client accepted : Client Address : [/127.0.0.1:60884] Client Socket: [60884 ]
+
+@2017-10-10 19:33:00 INFO  LibServer:63 - Waiting for a client ...
+@2017-10-10 19:33:00 INFO  ServerThread:53 - Class: ServerThread: Server Thread Running__60884
+@2017-10-10 19:33:00 INFO  LibClient:31 - 60884 : Connected to server: /127.0.0.1
+@2017-10-10 19:33:00 INFO  LibClient:32 - 60884 : Connected to portid: 60884
+@2017-10-10 19:33:46 INFO  LibServer:102 - Input from 127.0.0.1:60875 zhibo@carleton.ca,9781442668584,1
+@2017-10-10 19:33:46 INFO  String:65 - Operation:Borrow Item;Loan Info:[0,9781442668584,1,2017-10-10 07:33:46];State:Fail;Reason:The Item is Not Available.
+@2017-10-10 19:33:46 INFO  LibServer:111 - Output to 127.0.0.1:60875 The Item is Not Available!
+
+@2017-10-10 19:34:34 INFO  LibServer:102 - Input from 127.0.0.1:60875 
+@2017-10-10 19:34:34 INFO  LibServer:111 - Output to 127.0.0.1:60875 Please select from the menu.Menu:Borrow,Renew,Return,Pay Fine.
+
+@2017-10-10 19:34:45 INFO  LibServer:102 - Input from 127.0.0.1:60876 monitor system
+@2017-10-10 19:34:45 INFO  LibServer:111 - Output to 127.0.0.1:60876 
+
+@2017-10-10 19:34:46 INFO  LibServer:102 - Input from 127.0.0.1:60876 
+@2017-10-10 19:34:46 INFO  LibServer:111 - Output to 127.0.0.1:60876 BOOK TITLES
+9781442668584 - By the grace of God
+9781442616899 - Dante's lyric poetry 
+9781442667181 - Courtesy lost
+9781611687910 - Writing for justice
+9781317594277 - The act in context
+9876543211013 - ABC
+9293949599321 - To Know
+
+USERS
+Zhibo@carleton.ca
+Yu@carleton.ca
+Michelle@carleton.ca
+Kevin@carleton.ca
+Sun@carleton.ca
+Fifi@carleton.ca
+
+
 @

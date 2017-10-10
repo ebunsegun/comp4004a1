@@ -22,6 +22,8 @@ public class InputHandler {
     public static final int RENEW=15;
     public static final int RETURN=16;
     
+    int numLibrarians=0;
+    
     OutputHandler outputHandler=new OutputHandler();
 
 	public ServerOutput processInput(String input, int state) {
@@ -35,10 +37,18 @@ public class InputHandler {
 	            oo.setState(state);
 	         }else if (state == FINISHWAITING) {
 	            if (input.equalsIgnoreCase("librarian")) {
-	            	output="Please Input The Password:";
-	            	state=LIBRARIANLOGIN;
-	                oo.setOutput(output);
-		            oo.setState(state);
+	            	if(numLibrarians < 1) {
+	            		output="Please Input The Password:";
+		            	state=LIBRARIANLOGIN;
+		                oo.setOutput(output);
+			            oo.setState(state);
+		            	numLibrarians++;
+	            	} else {
+	            		output="Only one librarian allowed in the system";
+	            		state=WAITING;
+	            		oo.setOutput(output);
+			            oo.setState(state);
+	            	}        	
 	            }else if (input.equalsIgnoreCase("user")) {
 	            	output="Please Input Username and Password:'username,password'";
 	            	state=USERLOGIN;
