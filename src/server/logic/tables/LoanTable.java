@@ -45,7 +45,7 @@ public class LoanTable {
 			result="Copynumber Invalid";
 			logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:Invalid Copynumber.", i,string,string2,dateformat(date)));
 		}else{
-			if(oloan){
+			if(!oloan){
 				if(!limit && !fee){
 					Loan loan=new Loan(i,string,string2,date,"0");
 					loanList.add(loan);
@@ -79,7 +79,7 @@ public class LoanTable {
 				flag=flag+0;	
 			}
 		}
-		if(flag!=0){
+		if(flag==0){
 			result=false;
 		}
 		return result;

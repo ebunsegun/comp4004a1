@@ -118,6 +118,11 @@ public class InputHandler {
 	            	state=PAYFINE;
 	            	oo.setOutput(output);
 		            oo.setState(state);
+	            } else if (input.equalsIgnoreCase("borrow")) {
+	            	output = "Please Input User Info:'useremail,ISBN,copynumber'";
+	            	state=BORROWLOANCOPY;
+	            	oo.setOutput(output);
+		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("main menu")){
 	        		output = "What can I do for you?Menu:Borrow,Renew,Return,Pay Fine.";
 	                state = USER;
@@ -267,7 +272,25 @@ public class InputHandler {
 	        		oo.setOutput(output);
 		            oo.setState(state);
 	        	}
-	        } 
+	        } else if(state==BORROWLOANCOPY){
+	        	if(input.equalsIgnoreCase("log out")){
+	            	output = "Successfully Log Out!";
+	                state = WAITING;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else if(input.equalsIgnoreCase("main menu")){
+	        		output = "What can I do for you?Menu:Borrow,Renew,Return,Pay Fine.";
+	                state = USER;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else{
+	        		o=outputHandler.borrow(input);
+	        		output=o.getOutput();
+	        		state=o.getState();
+	        		oo.setOutput(output);
+		            oo.setState(state);
+	        	}
+	        }
 	        return oo;
 	}
 
