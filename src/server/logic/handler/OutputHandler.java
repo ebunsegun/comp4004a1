@@ -18,6 +18,7 @@ public class OutputHandler {
     public static final int CREATEITEM=8;
     public static final int DELETEUSER=9;
     public static final int DELETETITLE=10;
+    public static final int DELETEITEM=11;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);
@@ -144,6 +145,7 @@ public class OutputHandler {
         }
 		return output;
 	}
+	
 	public Output removeTitle(String input) {
 		Output output=new Output("",0);
 		String[] strArray = null;   
@@ -165,6 +167,32 @@ public class OutputHandler {
 		return output;
 	}
 	
+	public Output removeItem(String input) {
+		Output output=new Output("",0);
+		String[] strArray = null;   
+        strArray = input.split(",");
+        boolean number=isInteger(strArray[0]);
+        Object result="";
+        if(strArray.length!=2 || number!=true){
+        	output.setOutput("Your input should be in this format:'ISBN,copynumber',ISBN should be a 13-digit number");
+        	output.setState(DELETEITEM);
+        }else{
+        	boolean copynumber=isNumber(strArray[1]);
+        	if(copynumber!=true){
+        		output.setOutput("Your input should be in this format:'ISBN,copynumber',ISBN should be a 13-digit number");
+            	output.setState(DELETEITEM);
+        	}else{
+        		result=ItemTable.getInstance().delete(strArray[0], strArray[1]);
+            	if(result.equals("success")){
+            		output.setOutput("Success!");
+            	}else{
+            		output.setOutput(result+"!");
+            	}
+            	output.setState(LIBRARIAN);
+        	}
+        }
+		return output;
+	}
 	public static boolean isInteger(String value) {
 		char[] ch = value.toCharArray();
 		boolean isNumber=true;

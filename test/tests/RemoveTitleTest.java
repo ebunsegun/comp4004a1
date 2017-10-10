@@ -37,7 +37,7 @@ public class RemoveTitleTest {
 	}
 	
 	@Test
-	public void nonExistingUserTest() {
+	public void nonExistingTitleTest() {
 		Output output = outputHandler.removeTitle(nonExistentTitleISBN);
 		assertEquals("The Title Does Not Exist!", output.getOutput());
 		assertEquals(LIBRARIAN, output.getState());
