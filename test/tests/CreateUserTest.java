@@ -1,9 +1,9 @@
 package tests;
 
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import server.logic.handler.OutputHandler;
@@ -12,10 +12,10 @@ import server.logic.tables.UserTable;
 
 public class CreateUserTest {
 	OutputHandler outputHandler = new OutputHandler();
-	String existingUser = "Yu@carleton.ca,Yu";
-	String existingUsername ="Yu@carleton.ca";
-	String newUser = "Ebun@carleton.ca,Ebun";
-	String newUsername = "Ebun@carleton.ca";
+	String existingUsername = "Michelle@carleton.ca";	
+	String existingUser = "Michelle@carleton.ca,Michelle";
+	String newUser = "Carly@carleton.ca,Carly";
+	String newUsername = "Carly@carleton.ca";
 	String wrongFormat = "Yu,Yu@carleton.ca";
     public static final int LIBRARIAN = 2;
     public static final int CREATEUSER=6;

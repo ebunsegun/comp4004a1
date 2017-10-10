@@ -12,8 +12,9 @@ import server.logic.tables.TitleTable;
 public class CreateTitleTest {
 	
 	OutputHandler outputHandler = new OutputHandler();
-	String existingTitleInfo = "9781442668584,By the grace of God";
-	String existingISBN = "9781442668584";
+	String existingBookTitle = TitleTable.getInstance().getTitleTable().get(0).getBooktitle();
+	String existingISBN = TitleTable.getInstance().getTitleTable().get(0).getISBN();
+	String existingTitleInfo = existingISBN + "," + existingBookTitle;
 	String newTitleInfo = "9874567231876,New beginnigs";
 	String newISBN = "9874567231876";
 	String wrongFormat = "New beginnigs,9874567231876";

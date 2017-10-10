@@ -64,6 +64,15 @@ public class UserTable {
 		}
 		return result;
 	}
+	public User getUserById(int userId) {
+		for(int i=0;i<userList.size();i++){
+			int useridFromList=(userList.get(i)).getUserid();
+			if(useridFromList==userId){
+				return userList.get(i);
+			}
+		}
+		return null;
+	}
 	public List<User> getUserTable() {
 		return userList;
 	}

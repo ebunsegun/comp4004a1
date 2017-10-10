@@ -1,20 +1,18 @@
 package tests;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 import server.logic.handler.OutputHandler;
 import server.logic.handler.model.Output;
 import server.logic.tables.ItemTable;
-import server.logic.tables.TitleTable;
 
 public class CreateItemTest {
 	
 	OutputHandler outputHandler = new OutputHandler();
-	String existingTitleISBN = "9781442668584";
-	String newTitleISBN = "9874567231876";
+	String existingTitleISBN = ItemTable.getInstance().getItemTable().get(0).getISBN();
+	String newTitleISBN = "9874567931876";
 	String wrongFormatISBN = "9874567231833376";
     public static final int LIBRARIAN = 2;
     public static final int CREATEITEM=8;
