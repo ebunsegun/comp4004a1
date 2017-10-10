@@ -1,6 +1,7 @@
 package server.logic.handler;
 
 import server.logic.handler.model.Output;
+import server.logic.tables.FeeTable;
 import server.logic.tables.ItemTable;
 import server.logic.tables.TitleTable;
 import server.logic.tables.UserTable;
@@ -20,6 +21,7 @@ public class OutputHandler {
     public static final int DELETETITLE=10;
     public static final int DELETEITEM=11;
     public static final int MONITORSYSTEM=12;
+    public static final int COLLECTFINE=13;
 
 	public Output createUser(String input) {
 		Output output=new Output("",0);
@@ -46,7 +48,7 @@ public class OutputHandler {
 		Output output=new Output("",0);
 		if(input.equalsIgnoreCase(Config.LIBRARIAN_PASSWORD)){
 			output.setOutput("Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-        			+ "Monitor System.");
+        			+ "Collect Fine,Monitor System.");
         	output.setState(LIBRARIAN);
 		}else{
 			output.setOutput("Wrong Password!Please Input The Password:");
@@ -210,6 +212,30 @@ public class OutputHandler {
 		
 		output.setOutput(bookTitles + "\n" + users);
 		output.setState(LIBRARIAN);
+		return output;
+	}
+	
+	public Output collectFine(String input) {
+		Output output=new Output("",0);
+        boolean email=input.contains("@");
+        int userid=UserTable.getInstance().lookup(input);
+        Object result="";
+        if(email!=true){
+        	output.setOutput("Your input should in this format:'useremail'");
+        	output.setState(COLLECTFINE);
+        }else if(userid==-1){
+        	output.setOutput("The User Does Not Exist!");
+        	output.setState(COLLECTFINE);
+        }else{
+        	result=FeeTable.getInstance().payfine(userid);	
+        	if(result.equals("success")){
+        		output.setOutput("Success!");
+        		}else{
+            		output.setOutput(result+"!");
+            	}
+        		output.setState(LIBRARIAN);
+        	}
+        	
 		return output;
 	}
 	

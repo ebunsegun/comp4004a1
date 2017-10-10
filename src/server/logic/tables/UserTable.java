@@ -101,16 +101,16 @@ public class UserTable {
 			boolean fee=FeeTable.getInstance().lookup(i);
 			String string=userList.get(index).getUsername();
 			String string2=userList.get(index).getPassword();
-			if(fee && loan){
+			if(!fee && !loan){
 				userList.get(index).setUserid(i);
 				userList.get(index).setPassword("N/A");
 				userList.get(index).setUsername("N/A");
 				result="success";
 				logger.info(String.format("Operation:Delete User;User Info:[%s,%s];State:Success", string,string2));
-			}else if(fee==false){
+			}else if(fee==true){
 				result="Outstanding Fee Exists";
 				logger.info(String.format("Operation:Delete User;User Info:[%s,%s];State:Fail;Reason:Outstanding Fee Exists.", string,string2));
-			}else if(loan==false){
+			}else if(loan==true){
 				result="Active Loan Exists";
 				logger.info(String.format("Operation:Delete User;User Info:[%s,%s];State:Fail;Reason:Active Loan Exists.", string,string2));
 			}

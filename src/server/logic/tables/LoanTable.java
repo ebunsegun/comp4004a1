@@ -46,15 +46,15 @@ public class LoanTable {
 			logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:Invalid Copynumber.", i,string,string2,dateformat(date)));
 		}else{
 			if(oloan){
-				if(limit && fee){
+				if(!limit && !fee){
 					Loan loan=new Loan(i,string,string2,date,"0");
 					loanList.add(loan);
 					result="success";
 					logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Success", i,string,string2,dateformat(date)));
-				}else if(limit==false){
+				}else if(limit==true){
 					result="The Maximun Number of Items is Reached";
 					logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:The Maximun Number of Items is Reached.", i,string,string2,dateformat(date)));
-				}else if(fee==false){
+				}else if(fee==true){
 					result="Outstanding Fee Exists";
 					logger.info(String.format("Operation:Borrow Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:Outstanding Fee Exists.", i,string,string2,dateformat(date)));
 				}
@@ -86,7 +86,7 @@ public class LoanTable {
 	}
     
 	public boolean checkLimit(int j) {
-		boolean result=true;
+		boolean result=false;
 		int flag=0;
 		for(int i=0;i<loanList.size();i++){
 			int userid=(loanList.get(i)).getUserid();
@@ -97,7 +97,7 @@ public class LoanTable {
 			}
 		}
 		if(flag>=Config.MAX_BORROWED_ITEMS){
-			result=false;
+			result=true;
 		}
 		return result;
 	}
@@ -119,7 +119,7 @@ public class LoanTable {
 				flag=flag+0;	
 			}
 		}
-		if(limit && fee){
+		if(!limit && !fee){
 			if(flag!=0){
 				if(loanList.get(index).getRenewstate().equalsIgnoreCase("0")){
 					loanList.get(index).setUserid(j);
@@ -138,10 +138,10 @@ public class LoanTable {
 				logger.info(String.format("Operation:Renew Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:The loan does not exist.", j,string,string2,dateformat(date)));
 			}
 			
-		}else if(limit==false){
+		}else if(limit==true){
 			result="The Maximun Number of Items is Reached";
 			logger.info(String.format("Operation:Renew Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:The Maximun Number of Items is Reached.", j,string,string2,dateformat(date)));
-		}else if(fee==false){
+		}else if(fee==true){
 			result="Outstanding Fee Exists";
 			logger.info(String.format("Operation:Renew Item;Loan Info:[%d,%s,%s,%s];State:Fail;Reason:Outstanding Fee Exists.", j,string,string2,dateformat(date)));
 		}
@@ -186,7 +186,7 @@ public class LoanTable {
 	public List<Loan> getLoanTable() {
 		return loanList;
 	}
-	//There is a limit to the number of books a user can borrow
+	
 	public boolean looklimit(int j) {
 		boolean result=true;
 		int flag=0;
@@ -214,7 +214,7 @@ public class LoanTable {
 				flag=flag+0;	
 			}
 		}
-		if(flag!=0){
+		if(flag==0){
 			result=false;
 		}
 		return result;

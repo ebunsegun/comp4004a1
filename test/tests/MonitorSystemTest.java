@@ -2,12 +2,14 @@ package tests;
 
 import static org.junit.Assert.assertEquals;
 
+import org.apache.log4j.Logger;
 import org.junit.Test;
 
 import server.logic.handler.OutputHandler;
 import server.logic.handler.model.Output;
 import server.logic.tables.TitleTable;
 import server.logic.tables.UserTable;
+import utilities.Trace;
 
 public class MonitorSystemTest {
 	OutputHandler outputHandler = new OutputHandler();
@@ -30,7 +32,6 @@ public class MonitorSystemTest {
 		String expectedMonitorOutput = bookTitles + "\n" + users;
 		assertEquals(expectedMonitorOutput, output.getOutput());
 		assertEquals(LIBRARIAN,output.getState());
-    	
     }
 
 }

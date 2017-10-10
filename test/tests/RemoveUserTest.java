@@ -13,7 +13,7 @@ import server.logic.tables.UserTable;
 
 public class RemoveUserTest {
 	OutputHandler outputHandler = new OutputHandler();
-	String existingUsername = "Kevin@carleton.ca";
+	String existingUsername = "Sun@carleton.ca";
 	int userIdOwingFee = FeeTable.getInstance().getFeeTable().get(0).getUserid();
 	String existingUserOwingFine = UserTable.getInstance().getUserById(userIdOwingFee).getUsername();
 	String nonExistentUsername = "Ebun@carleton.ca";

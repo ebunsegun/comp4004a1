@@ -37,10 +37,8 @@ public class FeeTable {
 					fee=fee+feeList.get(i).getFee();
 				}
 			}	
-		}else{
-			fee=0;
 		}
-		if(fee!=0){
+		if(fee==0){
 			result=false;
 		}
 		return result;
@@ -65,12 +63,12 @@ public class FeeTable {
 		int fee=0;
 		boolean user=FeeTable.getInstance().checkuser(j);
 		if(user){
-		for(int i=0;i<feeList.size();i++){
-			int userid=(feeList.get(i)).getUserid();
-			if(userid==j){
-				fee=fee+feeList.get(i).getFee();
+			for(int i=0;i<feeList.size();i++){
+				int userid=(feeList.get(i)).getUserid();
+				if(userid==j){
+					fee=fee+feeList.get(i).getFee();
+				}
 			}
-		}
 		}else{
 			fee=0;
 		}
@@ -121,32 +119,25 @@ public class FeeTable {
     	}
     	logger.info(String.format("Operation:Initialize FeeTable;FeeTable: %s", feeList));
 	}
-	public Object payfine(int i) {
+	public Object payfine(int userId) {
 		String result="";
-		boolean oloan=LoanTable.getInstance().looklimit(i);
-		int fee=0;
 		int index=0;
-		boolean user=FeeTable.getInstance().checkuser(i);
-		if(user){
+		int fee=0;
+		boolean user = FeeTable.getInstance().checkuser(userId);
+		if(user) {
 			for(int m=0;m<feeList.size();m++){
-				if(feeList.get(m).getUserid()==i){
-					fee=feeList.get(m).getFee();
+				if(feeList.get(m).getUserid()==userId){
 					index=m;
-				}else{
-					fee=0;
+					fee=feeList.get(m).getFee();
 				}
 			}
-		}else{
-			fee=0;
-		}
-		if(oloan==false){
-			result="Borrowed Items Exist";
-			logger.info(String.format("Operation:Pay Fine;Fee Info:[%d,%d];State:Fail;Reason:Borrowed Items Exist.", i,fee));
-		}else{
-			feeList.get(index).setUserid(i);
+			feeList.get(index).setUserid(userId);
 			feeList.get(index).setFee(0);
 			result="success";
-			logger.info(String.format("Operation:Pay Fine;Fee Info:[%d,%d];State:Success", i,fee));
+			logger.info(String.format("Operation:Pay Fine;Fee Info:[%d,%d];State:Success", userId,fee));
+		} else {
+			result = "No Outstanding Fees To Be Payed";
+			logger.info(String.format("Operation:Pay Fine;Fee Info:[%d,%d];State:Fail;No outstanding fees owed by user.", userId,fee));
 		}
 		return result;
 	}

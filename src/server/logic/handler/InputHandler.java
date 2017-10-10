@@ -17,6 +17,7 @@ public class InputHandler {
     public static final int DELETETITLE=10;
     public static final int DELETEITEM=11;
     public static final int MONITORSYSTEM=12;
+    public static final int COLLECTFINE=13;
     
     OutputHandler outputHandler=new OutputHandler();
 
@@ -92,6 +93,11 @@ public class InputHandler {
 	            } else if (input.equalsIgnoreCase("monitor system")) {
 	            	state=MONITORSYSTEM;
 		            oo.setState(state);
+	            } else if (input.equalsIgnoreCase("collect fine")) {
+	            	output = "Please Input Item Info:'username'";
+	            	state=COLLECTFINE;
+	            	oo.setOutput(output);
+		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("log out")){
 	            	output = "Successfully Log Out!";
 	                state = WAITING;
@@ -105,11 +111,13 @@ public class InputHandler {
 		            oo.setState(state);
 	        	} else{
 	            	output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+  "Monitor System.";
+	            			+  "Collect Fine,Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
 	            }
+	        } else if(state==USER){
+	        	
 	        } else if(state==CREATEUSER){
 	        	if(input.equalsIgnoreCase("log out")){
 	            	output = "Successfully Log Out!";
@@ -118,7 +126,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Monitor System.";
+	            			+ "Collect Fine,Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -137,7 +145,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Monitor System.";
+	            			+ "Collect Fine,Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -156,7 +164,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Monitor System.";
+	            			+ "Collect Fine,Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -175,7 +183,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Monitor System.";
+	            			+ "Collect Fine,Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -194,7 +202,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Monitor System.";
+	            			+ "Collect Fine,Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -213,7 +221,7 @@ public class InputHandler {
 		            oo.setState(state);
 	        	}else if(input.equalsIgnoreCase("main menu")){
 	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
-	            			+ "Monitor System.";
+	            			+ "Collect Fine,Monitor System.";
 	                state = LIBRARIAN;
 	                oo.setOutput(output);
 		            oo.setState(state);
@@ -230,6 +238,25 @@ public class InputHandler {
         		state=o.getState();
         		oo.setOutput(output);
 	            oo.setState(state);
+	        } else if(state==COLLECTFINE){
+	        	if(input.equalsIgnoreCase("log out")){
+	            	output = "Successfully Log Out!";
+	                state = WAITING;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else if(input.equalsIgnoreCase("main menu")){
+	        		output = "Please select from the menu.Menu:Create User/Title/Item,Delete User/Title/Item,"
+	            			+ "Collect Fine,Monitor System.";
+	                state = LIBRARIAN;
+	                oo.setOutput(output);
+		            oo.setState(state);
+	        	}else{
+	        		o=outputHandler.collectFine(input);
+	        		output=o.getOutput();
+	        		state=o.getState();
+	        		oo.setOutput(output);
+		            oo.setState(state);
+	        	}
 	        } 
 	        return oo;
 	}
