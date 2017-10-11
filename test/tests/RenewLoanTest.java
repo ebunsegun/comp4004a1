@@ -12,7 +12,7 @@ public class RenewLoanTest {
     public static final int USER = 3;
     public static final int RENEW = 15;
     String user = "Sun@carleton.ca,9781442668584,1";
-    String userWithBorrow = "Yu@carleton.ca,9781442668584,1";
+    String userWithBorrow = "Yu@carleton.ca,8781611687910,1";
     String userBorrowInfoWrongFormat = "Zhibo@carleton.ca,9781442668584";
     
     @Test
