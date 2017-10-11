@@ -145,6 +145,11 @@ public class InputHandler {
 		            state=RETURN;
 		            oo.setOutput(output);
 		            oo.setState(state);
+	            } else if(input.equalsIgnoreCase("log out")){
+	            	output = "Successfully Log Out!";
+	                state = WAITING;
+	                oo.setOutput(output);
+		            oo.setState(state);
 	            } else if(input.equalsIgnoreCase("main menu")){
 	        		output = "What can I do for you?Menu:Borrow,Renew,Return,Pay Fine.";
 	                state = USER;
