@@ -12,7 +12,7 @@ import server.logic.model.Fee;
 import server.logic.tables.FeeTable;
 import server.logic.tables.UserTable;
 
-public class CollectFineTest {
+public class PayFineTest {
 	OutputHandler outputHandler = new OutputHandler();
     public static final int USER = 3;
     public static final int COLLECTFINE = 13;
