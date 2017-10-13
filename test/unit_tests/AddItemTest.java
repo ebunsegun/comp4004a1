@@ -5,9 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import server.logic.model.Item;
-import server.logic.model.Title;
 import server.logic.tables.ItemTable;
-import server.logic.tables.TitleTable;
 
 public class AddItemTest {
 
