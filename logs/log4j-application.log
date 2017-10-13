@@ -121,4 +121,110 @@
 @2017-10-13 00:55:46 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1], [4,9293949599321,1], [5,8781611687910,1]]
 @2017-10-13 00:55:46 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-13 12:55:46,0], [1,8781611687910,1,2017-10-13 12:55:46,0]]
 @2017-10-13 00:55:52 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-13 12:55:52,0], [1,8781611687910,1,2017-10-13 12:55:52,0]]
+@2017-10-13 00:57:59 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-13 12:57:59,0], [1,8781611687910,1,2017-10-13 12:57:59,0]]
+@2017-10-13 00:58:06 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context], [9876543211013,ABC], [9293949599321,To Know], [8781611687910,Me Before You]]
+@2017-10-13 00:58:06 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
+@2017-10-13 00:58:06 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1], [4,9293949599321,1], [5,8781611687910,1]]
+@2017-10-13 00:58:06 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-13 12:58:06,0], [1,8781611687910,1,2017-10-13 12:58:06,0]]
+@2017-10-13 00:58:14 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
+@2017-10-13 00:58:14 INFO  String:25 - Operation:Initialize ItemTable;ItemTable: [[0,9781442668584,1], [1,9781442616899,1], [2,9781442667181,1], [3,9781611687910,1], [4,9293949599321,1], [5,8781611687910,1]]
+@2017-10-13 00:58:14 INFO  String:23 - Operation:Initialize TitleTable;TitleTable: [[9781442668584,By the grace of God], [9781442616899,Dante's lyric poetry ], [9781442667181,Courtesy lost], [9781611687910,Writing for justice], [9781317594277,The act in context], [9876543211013,ABC], [9293949599321,To Know], [8781611687910,Me Before You]]
+@2017-10-13 00:58:14 INFO  String:47 - Operation:Create New Item;Item Info:[9874567931876,N/A];State:Fail;Reason:No such ISBN existed.
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Lexi@carleton.ca,Lexi];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000044,Book of Life];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000044,1];State:Success
+@2017-10-13 00:58:14 INFO  String:27 - Operation:Initialize LoanTable;LoanTable: [[0,9781442668584,1,2017-10-13 12:58:14,0], [1,8781611687910,1,2017-10-13 12:58:14,0]]
+@2017-10-13 00:58:14 INFO  String:96 - Operation:Apply OutStanding Fee;Fee Info:[0,0];State:Success
+@2017-10-13 00:58:14 INFO  String:106 - Operation:Apply OutStanding Fee;Fee Info:[1,0];State:Success
+@2017-10-13 00:58:14 INFO  String:120 - Operation:Initialize FeeTable;FeeTable: [[0,5], [1,0]]
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[6,9000000000044,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:133 - Operation:Renew Item;Loan Info:[6,9000000000044,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Ebun@carleton.ca,Ebun];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000017,Edge of Glory];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000017,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[7,9000000000017,1,2017-10-05 12:00:00];State:Success
+@2017-10-13 00:58:14 INFO  String:176 - Operation:Return Item;Loan Info:[7,9000000000017,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:102 - Operation:Apply OutStanding Fee;Fee Info:[7,11573];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Lexa@carleton.ca,Lexa];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000084,Book of Lives];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000084,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[8,9000000000084,1,2017-10-11 12:00:00];State:Success
+@2017-10-13 00:58:14 INFO  String:133 - Operation:Renew Item;Loan Info:[8,9000000000084,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:136 - Operation:Renew Item;Loan Info:[8,9000000000084,1,2017-10-13 12:58:14];State:Fail;Reason:Renewed Item More Than Once for the Same Loan.
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Alex@carleton.ca,Alex];State:Success
+@2017-10-13 00:58:14 INFO  String:47 - Operation:Create New User;User Info:[Alex@carleton.ca,Alex];State:Fail;Reason:The User already existed.
+@2017-10-13 00:58:14 INFO  String:91 - Operation:Delete Title;ISBN Info:[9001889066777];State:Fail;Reason:The Title Does Not Exist.
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Jake@carleton.ca,Jake];State:Success
+@2017-10-13 00:58:14 INFO  String:183 - Operation:Return Item;Loan Info:[10,9000000000007,1,2017-10-13 12:58:14];State:Fail;Reason:The Loan Does Not Exist.
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Drew@carleton.ca,Drew];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000654,Open Invitation];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000654,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[11,9000000000654,1,2017-02-15 12:00:00];State:Success
+@2017-10-13 00:58:14 INFO  String:115 - Operation:Delete User;User Info:[Drew@carleton.ca,Drew];State:Fail;Reason:Active Loan Exists.
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Umar@carleton.ca,Umar];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9123456789125,Seasons of Life];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9123456789125,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[12,9123456789125,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Kellis@carleton.ca,kellis];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9123456789137,Seasons of Life];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9123456789137,1];State:Success
+@2017-10-13 00:58:14 INFO  String:61 - Operation:Borrow Item;Loan Info:[13,9123456789137,1,2017-10-13 12:58:14];State:Fail;Reason:Outstanding Fee Exists.
+@2017-10-13 00:58:14 INFO  String:137 - Operation:Pay Fine;Fee Info:[13,10];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[13,9123456789137,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:99 - Operation:Delete User;User Info:[N/A,N/A];State:Fail;Reason:The User Does Not Exist.
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9879898765632,Midnight Train];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9879898765632,1];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Nick@carleton.ca,Nick];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000033300654,Flying Mechanisms];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000033300654,1];State:Success
+@2017-10-13 00:58:14 INFO  String:91 - Operation:Delete Item;Item Info:[9000033300654,N/A];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Joe@carleton.ca,Joe];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9004444000654,Future Years];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9004444000654,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[15,9004444000654,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:87 - Operation:Delete Title;ISBN Info:[9004444000654];State:Fail;Reason:Active Loan Exists.
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Jonas@carleton.ca,Jonas];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000111000654,Future Years];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000111000654,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[16,9000111000654,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:87 - Operation:Delete Title;ISBN Info:[9000111000654];State:Fail;Reason:Active Loan Exists.
+@2017-10-13 00:58:14 INFO  String:98 - Operation:Delete Item;Item Info:[9781487667777,1];State:Fail;Reason:The Item Does Not Exist.
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[Jude@carleton.ca,Jude];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000007,Book of Truth];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000007,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[17,9000000000007,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:176 - Operation:Return Item;Loan Info:[17,9000000000007,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New User;User Info:[John@carleton.ca,John];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000001,Book A];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000001,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[18,9000000000001,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000002,Book B];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000002,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[18,9000000000002,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000003,Book C];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000003,1];State:Success
+@2017-10-13 00:58:14 INFO  String:55 - Operation:Borrow Item;Loan Info:[18,9000000000003,1,2017-10-13 12:58:14];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9123456789135,Beliefs of the System];State:Success
+@2017-10-13 00:58:14 INFO  String:44 - Operation:Create New Item;Item Info:[9123456789135,1];State:Success
+@2017-10-13 00:58:14 INFO  String:58 - Operation:Borrow Item;Loan Info:[18,9123456789135,1,2017-10-13 12:58:14];State:Fail;Reason:The Maximun Number of Items is Reached.
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9874567231876,New beginnigs];State:Success
+@2017-10-13 00:58:14 INFO  String:42 - Operation:Create New Title;Title Info:[9001889066666,Sky Scraper];State:Success
+@2017-10-13 00:58:14 INFO  String:84 - Operation:Delete Title;Title Info:[9001889066666,Sky Scraper];State:Success
+@2017-10-13 00:58:15 INFO  String:44 - Operation:Create New User;User Info:[Fred@carletonca,Fred];State:Success
+@2017-10-13 00:58:15 INFO  String:44 - Operation:Create New User;User Info:[Eden@carleton.ca,Eden];State:Success
+@2017-10-13 00:58:15 INFO  String:109 - Operation:Delete User;User Info:[Eden@carleton.ca,Eden];State:Success
+@2017-10-13 00:58:15 INFO  String:44 - Operation:Create New User;User Info:[Phil@carleton.ca,Phil];State:Success
+@2017-10-13 00:58:15 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000005,Some Nights];State:Success
+@2017-10-13 00:58:15 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000005,1];State:Success
+@2017-10-13 00:58:15 INFO  String:55 - Operation:Borrow Item;Loan Info:[21,9000000000005,1,2017-10-13 12:58:15];State:Success
+@2017-10-13 00:58:15 INFO  String:148 - Operation:Renew Item;Loan Info:[21,9000000000005,1,2017-10-13 12:58:15];State:Fail;Reason:Outstanding Fee Exists.
+@2017-10-13 00:58:15 INFO  String:44 - Operation:Create New User;User Info:[Meena@carleton.ca,Meena];State:Success
+@2017-10-13 00:58:15 INFO  String:42 - Operation:Create New Title;Title Info:[9000000000036,Wings];State:Success
+@2017-10-13 00:58:15 INFO  String:44 - Operation:Create New Item;Item Info:[9000000000036,1];State:Success
+@2017-10-13 00:58:15 INFO  String:55 - Operation:Borrow Item;Loan Info:[22,9000000000036,1,2017-09-05 12:00:00];State:Success
+@2017-10-13 00:58:15 INFO  String:176 - Operation:Return Item;Loan Info:[22,9000000000036,1,2017-10-13 12:58:15];State:Success
+@2017-10-13 00:58:15 INFO  String:102 - Operation:Apply OutStanding Fee;Fee Info:[22,54773];State:Success
+@2017-10-13 00:58:15 INFO  String:137 - Operation:Pay Fine;Fee Info:[22,54773];State:Success
+@2017-10-13 00:58:15 INFO  String:42 - Operation:Create New Title;Title Info:[9001889065467,Far Away From Home];State:Success
+@2017-10-13 00:58:15 INFO  String:45 - Operation:Create New Title;Title Info:[9001889065467,Far Away From Home];State:Fail;Reason:The ISBN already existed.
 @
