@@ -10,7 +10,7 @@ import server.logic.tables.UserTable;
 public class AddUserTest {
 
 	@Test
-	public void addUser() {
+	public void test() {
 		int userTableSize = UserTable.getInstance().getUserTable().size();
 		User user = new User(userTableSize, "Kizito@carleton.ca", "Kizito" );
 		UserTable.getInstance().getUserTable().add(user);

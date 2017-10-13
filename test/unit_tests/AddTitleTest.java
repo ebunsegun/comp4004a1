@@ -5,14 +5,12 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import server.logic.model.Title;
-import server.logic.model.User;
 import server.logic.tables.TitleTable;
-import server.logic.tables.UserTable;
 
 public class AddTitleTest {
 
 	@Test
-	public void addUser() {
+	public void test() {
 		int titleTableSize = TitleTable.getInstance().getTitleTable().size();
 		Title title = new Title("9009858946732", "No Strings Attached");
 		TitleTable.getInstance().getTitleTable().add(title);
