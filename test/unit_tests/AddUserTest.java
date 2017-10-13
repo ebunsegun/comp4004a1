@@ -12,10 +12,11 @@ public class AddUserTest {
 	@Test
 	public void addUser() {
 		int userTableSize = UserTable.getInstance().getUserTable().size();
-		User user = new User(0, "Kizito@carleton.ca", "Kizito" );
+		User user = new User(userTableSize, "Kizito@carleton.ca", "Kizito" );
 		UserTable.getInstance().getUserTable().add(user);
 		assertEquals(userTableSize + 1, UserTable.getInstance().getUserTable().size());
 		assertEquals("Kizito", UserTable.getInstance().getUserTable().get(userTableSize).getPassword());
+		assertEquals(userTableSize, UserTable.getInstance().getUserTable().get(userTableSize).getUserid());
 		assertEquals("Kizito@carleton.ca", UserTable.getInstance().getUserTable().get(userTableSize).getUsername());
 	}
 }
