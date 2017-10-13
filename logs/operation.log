@@ -99,4 +99,8 @@
 @2017-10-12 22:14:35 INFO  String:137 - Operation:Pay Fine;Fee Info:[22,54609];State:Success
 @2017-10-12 22:14:35 INFO  String:42 - Operation:Create New Title;Title Info:[9001889065467,Far Away From Home];State:Success
 @2017-10-12 22:14:35 INFO  String:45 - Operation:Create New Title;Title Info:[9001889065467,Far Away From Home];State:Fail;Reason:The ISBN already existed.
+@2017-10-12 23:50:02 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
+@2017-10-12 23:52:55 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
+@2017-10-12 23:53:37 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
+@2017-10-12 23:54:22 INFO  String:25 - Operation:Initialize UserTable;UserTable: [[0,Zhibo@carleton.ca,Zhibo], [1,Yu@carleton.ca,Yu], [2,Michelle@carleton.ca,Michelle], [3,Kevin@carleton.ca,Kevin], [4,Sun@carleton.ca,Sun], [5,Fifi@carleton.ca,Fifi]]
 @
