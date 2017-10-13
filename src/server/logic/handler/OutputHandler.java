@@ -140,17 +140,15 @@ public class OutputHandler {
         if(strArray.length!=1 || email!=true){
         	output.setOutput("Your input should be in this format:'useremail'");
         	output.setState(DELETEUSER);
-        }else if(userid==-1){
-        	output.setOutput("The User Does Not Exist!");
-        	output.setState(DELETEUSER);
         }else{
         	result=UserTable.getInstance().delete(userid);
         	if(result.equals("success")){
         		output.setOutput("Success!");
+        		output.setState(LIBRARIAN);
         	}else{
         		output.setOutput(result+"!");
-        	}
-        	output.setState(LIBRARIAN);
+        		output.setState(DELETEUSER);
+        	}   	
         }
 		return output;
 	}

@@ -1,9 +1,5 @@
-/log4j.properties
-/utilities/
-/server/
-/UserLoginTest.class
-/UserLogin/
-/tests/
-/.DS_Store
-/unit_tests/
 /acceptance_tests/
+/utilities/
+/unit_tests/
+/server/
+/scenario_tests/
