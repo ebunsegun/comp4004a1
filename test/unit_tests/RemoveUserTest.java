@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import server.logic.model.User;
 import server.logic.tables.UserTable;
 
 public class RemoveUserTest {
